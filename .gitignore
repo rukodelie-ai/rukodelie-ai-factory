@@ -1,0 +1,25 @@
+# Credentials — NEVER commit
+09_DOCUMENTS/CREDENTIALS.md
+
+# Obsidian personal settings
+.obsidian/
+
+# Claude Code settings
+.claude/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Python (Telegram Bot)
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.venv/
+*.env
+.env.*
+
+# Logs
+*.log
+logs/
