@@ -18,12 +18,13 @@ iCloud Drive / RUKODELIE_AI_FACTORY /
 
 ## Что читать первым
 
-> Прочитай этот файл → затем PROJECT_MEMORY.md → ты готов к работе.
+> Прочитай CURRENT_STATE.md → затем этот файл → ты готов к работе.
 
 | Шаг | Файл | Зачем |
 |-----|------|-------|
+| **0** | **`00_PROJECT_MANAGER/CURRENT_STATE.md`** | **⚠️ ЧИТАТЬ ПЕРВЫМ. Что заморожено, что в работе, что запрещено** |
 | 1 | `00_PROJECT_MANAGER/START_HERE.md` | Этот файл. Ориентация в проекте |
-| 2 | `00_PROJECT_MANAGER/PROJECT_MEMORY.md` | Полный контекст: что строим, где остановились, что делать |
+| 2 | `00_PROJECT_MANAGER/PROJECT_MEMORY.md` | Полный контекст: что строим, архитектура, решения |
 | 3 | `00_PROJECT_MANAGER/PROJECT_MEMORY_INDEX.md` | Карта всех ключевых документов |
 
 ---
