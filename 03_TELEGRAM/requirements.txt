@@ -1,0 +1,6 @@
+aiogram>=3.7.0
+anthropic>=0.25.0
+gspread>=5.0.0
+google-auth>=2.0.0
+python-dotenv>=1.0.0
+aiohttp>=3.9.0

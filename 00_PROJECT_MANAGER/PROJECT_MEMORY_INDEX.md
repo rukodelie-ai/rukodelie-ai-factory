@@ -72,6 +72,7 @@
 
 | Файл | Что охватывает |
 |------|---------------|
+| `00_PROJECT_MANAGER/SESSION_SUMMARY_2026-06-17.md` | Дни 7–8: RAM vs SQLite (решение #13), Phase 1 код (4 файла), Phase 2 план |
 | `00_PROJECT_MANAGER/SESSION_SUMMARY_2026-06-10.md` | День 6: SYSTEM_PROMPT.md v1.1, SESSION_SUMMARY, PROJECT_MEMORY |
 | `00_PROJECT_MANAGER/SESSION_SUMMARY_2026-06-07.md` | День 2–4: нормализация каталога, catalog_v1.csv |
 | `00_PROJECT_MANAGER/SESSION_SUMMARY_2026-06-05.md` | День 1: аудит сайта, стратегические документы |
@@ -111,7 +112,7 @@ START_HERE.md
 
 | Папка | Ждёт |
 |-------|-----|
-| `03_TELEGRAM/` | Код Telegram Bot (Python) |
+| `03_TELEGRAM/` | Phase 1 создана: requirements.txt, .env.example, config.py, logger.py. Phase 2 утверждена. |
 | `04_SEO_AGENT/` | SEO-агент (второй этап) |
 | `05_MARKETING_AGENT/` | Маркетинговый агент (второй этап) |
 | `06_ANALYTICS_AGENT/` | Аналитика (второй этап) |

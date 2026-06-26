@@ -228,6 +228,7 @@ RUKODELIE_AI_FACTORY/
 | 10 | **Передача менеджеру < 20% обращений** | Менеджер — исключение, не правило |
 | 11 | **Только `status = published` видно AI** | Черновики и снятые товары не существуют для клиента |
 | 12 | **Каталог передаётся в system prompt** | Не через RAG/embeddings (MVP); достаточно для 50–200 товаров |
+| 13 | **RAM dict для истории диалогов** | SQLite добавляет 57% кода при нулевом преимуществе до 100 сессий; при рестарте история сбрасывается — допустимо для MVP |
 
 ---
 
@@ -252,6 +253,15 @@ RUKODELIE_AI_FACTORY/
 - **DATA_NORMALIZATION_RULES.md** — правила нормализации данных
 - **TEMPLATE_PRODUCT_CARD.md** — шаблон карточки v2.0 (30+ полей)
 - **SOP_PRODUCT_CATALOG.md** — инструкция добавления/обновления товаров
+
+### Telegram Bot (Phase 1 — инфраструктура, 10%)
+
+- **`03_TELEGRAM/requirements.txt`** — 6 зависимостей: aiogram≥3.7, anthropic≥0.25, gspread≥5.0, google-auth≥2.0, python-dotenv≥1.0, aiohttp≥3.9
+- **`03_TELEGRAM/.env.example`** — шаблон 5 переменных (TELEGRAM_BOT_TOKEN, ANTHROPIC_API_KEY, ADMIN_CHAT_ID, GOOGLE_SHEETS_ID, CATALOG_PATH); реальный .env НИКОГДА не создаётся в репозитории
+- **`03_TELEGRAM/config.py`** — загрузка токенов из .env; `_require()` бросает RuntimeError без логирования значений; все константы Claude API (модель, temperature, max_tokens, MAX_HISTORY)
+- **`03_TELEGRAM/logger.py`** — structured logging stdout; никогда не выводит значения токенов; module-level `logger = get_logger("rukodelie")`
+
+**Phase 2 (утверждена, ожидает кода):** bot.py + routers/__init__.py + routers/greeting.py
 
 ### AI Seller (документально 100%, технически 0%)
 
@@ -500,6 +510,21 @@ response = client.messages.create(
 - Создан PROJECT_MEMORY.md (этот файл)
 
 **Итог:** AI Seller документально готов на 100%. Следующий шаг — код.
+
+---
+
+### Сессия 4 — 2026-06-15/17 (Дни 7–8)
+**Что сделано:** Архитектура памяти + Phase 1 кода.
+- Полное восстановление контекста проекта (14 документов)
+- Подтверждено: MVP_AI_SELLER_PLAN.md — это Phase 1 из 4, не финальная архитектура
+- Принято решение #13: RAM для истории диалогов (SQLite = +57% кода, 0 пользы для MVP)
+- Созданы 4 файла Phase 1 в 03_TELEGRAM/: requirements.txt, .env.example, config.py, logger.py
+- Утверждён план Phase 2: bot.py + routers/__init__.py + routers/greeting.py
+- Обновлена проектная память (этот файл, CURRENT_STATE, INDEX, SESSION_SUMMARY_2026-06-17)
+
+**Нарушение протокола:** попытка начать код без предварительного чтения документов; владелец остановил («СТОП. Нарушен протокол проекта.»); протокол восстановлен.
+
+**Итог:** инфраструктурный слой готов. Следующий шаг — Phase 2 (роутеры и точка входа).
 
 ---
 
