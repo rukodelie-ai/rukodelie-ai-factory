@@ -1,0 +1,1842 @@
+Кандидаты на сущности продаж: 1077
+  Приоритетные (реализация/чеки/Kaspi/Ozon/Halyk): 330
+  Вспомогательные (заказы/товары/контрагенты): 747
+
+=== ПРИОРИТЕТНЫЕ (330) ===
+  Document_Halyk_ЗаказыКлиентов
+    [DATE | NOM | QTY | SUM | CLIENT | CHANNEL | DOCREF]
+  Catalog_Halyk_Профили
+    [DATE | NOM | SUM | CLIENT | CHANNEL | DOCREF]
+  Catalog_Kaspi_Профили
+    [DATE | NOM | SUM | CLIENT | CHANNEL | DOCREF]
+  Document_Kaspi_ЗаказыКлиентов
+    [DATE | NOM | QTY | CLIENT | CHANNEL | DOCREF]
+  Document_РеализацияТоваровУслуг
+    [DATE | NOM | SUM | CLIENT | CHANNEL | DOCREF]
+  Catalog_Halyk_КарточкаТовара
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Catalog_Kaspi_КарточкаТовара
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Catalog_Ozon_Аккаунты
+    [DATE | NOM | CLIENT | CHANNEL | DOCREF]
+  Document_ВводОстатков_ОптовыеПродажи
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ВводОстатков_РозничныеПродажи
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_КорректировкаРеализации
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_КорректировкаРеализации_Товары
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_КорректировкаРеализации_Расхождения
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_КорректировкаРеализации_ВидыЗапасовОприходование
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_КорректировкаРеализации_ВидыЗапасовСписание
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ПланПродаж
+    [DATE | NOM | SUM | CHANNEL | DOCREF]
+  Document_ПланПродаж_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ПланПродажПоКатегориям
+    [DATE | NOM | SUM | CHANNEL | DOCREF]
+  Document_РеализацияТоваровУслуг_Товары
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_РеализацияТоваровУслуг_ВидыЗапасов
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница
+    [DATE | NOM | SUM | CHANNEL | DOCREF]
+  Catalog_Halyk_Отзывы
+    [DATE | NOM | CLIENT | DOCREF]
+  Catalog_Kaspi_Отзывы
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_Kaspi_ПоставкаТоваров
+    [DATE | NOM | CLIENT | DOCREF]
+  Catalog_Ozon_СертификатыНоменклатуры
+    [DATE | NOM | CHANNEL | DOCREF]
+  Document_Kaspi_ВозвратТоваровПриДоставке
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_Halyk_ВозвратТоваровПриДоставке
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_ЗаписьКнигиПродаж
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ЗаписьКнигиПродаж_Ценности
+    [NOM | QTY | SUM | DOCREF]
+  Document_КорректировкаРеализации_ВидыЗапасовКорректировкаВыручки
+    [NOM | SUM | CLIENT | DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_Операции
+    [DATE | SUM | CHANNEL | DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_ПлатежиПериоды
+    [DATE | SUM | CHANNEL | DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_ПлатежиРасшифровка
+    [DATE | SUM | CHANNEL | DOCREF]
+  Document_ОтчетОРозничныхПродажах
+    [DATE | NOM | SUM | DOCREF]
+  Document_ОтчетОРозничныхПродажах_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтчетОРозничныхПродажах_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПланПродажПоКатегориям_ТоварныеКатегории
+    [DATE | NOM | QTY | DOCREF]
+  Document_РеализацияУслугПрочихАктивов
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_СчетФактураНаНеподтвержденнуюРеализацию0
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_СчетФактураНаНеподтвержденнуюРеализацию0_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЧекЕГАИС_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЧекЕГАИСВозврат_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЧекККМ
+    [DATE | NOM | SUM | DOCREF]
+  Document_ЧекККМ_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЧекККМВозврат
+    [DATE | NOM | SUM | DOCREF]
+  Document_ЧекККМВозврат_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_Halyk_ПоставкаТоваров
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_Операции
+    [DATE | SUM | CHANNEL | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_ПлатежиПериоды
+    [DATE | SUM | CHANNEL | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_ПлатежиРасшифровка
+    [DATE | SUM | CHANNEL | DOCREF]
+  ExchangePlan_Kaspi_ПланОбмена
+    [DATE | NOM | CLIENT | DOCREF]
+  Catalog_НастройкиПродажДляПользователей
+    [NOM | CLIENT | DOCREF]
+  Catalog_Halyk_ТочкиПродаж
+    [SUM | CLIENT | DOCREF]
+  Document_Kaspi_ПоставкаТоваров_ЗаказыКлиентов
+    [DATE | CLIENT | DOCREF]
+  Catalog_Kaspi_ТочкиПродаж
+    [SUM | CLIENT | DOCREF]
+  Document_Kaspi_ВозвратТоваровПриДоставке_ЗаказыКлиентов
+    [DATE | CLIENT | DOCREF]
+  Document_Halyk_ВыгрузкаТоваровВМагазин
+    [DATE | NOM | DOCREF]
+  Document_КассовыйЧекКоррекции
+    [DATE | SUM | DOCREF]
+  Document_НормативРаспределенияПлановПродажПоКатегориям
+    [DATE | NOM | DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_Платежи
+    [DATE | CLIENT | DOCREF]
+  Document_ОтчетОРозничныхПродажах_Серии
+    [NOM | QTY | DOCREF]
+  Document_ОтчетОРозничныхПродажах_НачислениеБонусныхБаллов
+    [DATE | SUM | DOCREF]
+  Document_ОтчетОРозничныхПродажах_ОплатаБонуснымиБаллами
+    [DATE | SUM | DOCREF]
+  Document_ПланПродаж_ПравилоЗаполнения
+    [DATE | CHANNEL | DOCREF]
+  Document_ПланПродаж_ПланОплаты
+    [DATE | SUM | DOCREF]
+  Document_ПланПродажПоКатегориям_ПравилоЗаполнения
+    [DATE | CHANNEL | DOCREF]
+  Document_РеализацияПодарочныхСертификатов
+    [DATE | SUM | DOCREF]
+  Document_РеализацияУслугПрочихАктивов_Доходы
+    [QTY | SUM | DOCREF]
+  Document_ЧекЕГАИС
+    [DATE | NOM | DOCREF]
+  Document_ЧекЕГАИСВозврат
+    [DATE | NOM | DOCREF]
+  Document_ЧекККМ_Серии
+    [NOM | QTY | DOCREF]
+  Document_ЧекККМ_БонусныеБаллы
+    [DATE | SUM | DOCREF]
+  Document_ЧекККМВозврат_Серии
+    [NOM | QTY | DOCREF]
+  Document_ЧекККМВозврат_БонусныеБаллы
+    [DATE | SUM | DOCREF]
+  Document_Kaspi_ВыгрузкаТоваровВМагазин
+    [DATE | NOM | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_Платежи
+    [DATE | CLIENT | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_ПлатежиКомпенсацииДоставки
+    [DATE | CLIENT | DOCREF]
+  Document_РеализацияТоваровУслуг_Серии
+    [NOM | QTY | DOCREF]
+  DocumentJournal_ЧекиККМ
+    [DATE | SUM | DOCREF]
+  InformationRegister_Halyk_ЖурналСобытий
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_Halyk_ИсторияЗаказовКлиентов
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_Kaspi_ЖурналСобытий
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_Kaspi_ИсторияЗаказовКлиентов
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_Ozon_ЗаказыFBS
+    [NOM | CHANNEL | DOCREF]
+  BusinessProcess_iq_ПродажаТоваровИнтернетМагазина
+    [DATE | NOM | DOCREF]
+  Catalog_Halyk_Категории
+    [QTY | DOCREF]
+  InformationRegister_Ozon_ДанныеВесовыхТоваров
+    [CHANNEL | DOCREF]
+  Catalog_Halyk_СлужбыДоставки
+    [CLIENT | DOCREF]
+  Catalog_ОчередьЭлектронныхЧековКОтправке
+    [DATE | DOCREF]
+  Catalog_Kaspi_Категории
+    [QTY | DOCREF]
+  BusinessProcess_СогласованиеПродажи
+    [DATE | DOCREF]
+  BusinessProcess_СогласованиеПродажи_РезультатыСогласования
+    [DATE | DOCREF]
+  Catalog_Kaspi_СлужбыДоставки
+    [CLIENT | DOCREF]
+  Catalog_Ozon_МетодыДоставки
+    [DATE | DOCREF]
+  Catalog_Ozon_СертификатыНоменклатуры_Товары
+    [NOM | DOCREF]
+  Catalog_Ozon_Уведомления
+    [DATE | DOCREF]
+  Catalog_Беру_СтратегииПродаж_Условия
+    [SUM | DOCREF]
+  Catalog_Беру_СтратегииПродаж_Категории
+    [NOM | DOCREF]
+  Catalog_Беру_СтратегииПродаж_ИтоговыеУсловия
+    [SUM | DOCREF]
+  Catalog_Беру_ТочкиПродаж_УсловияСамовывоза
+    [SUM | DOCREF]
+  Document_Halyk_ВозвратТоваровПриДоставке_ЗаказыКлиентов
+    [CLIENT | DOCREF]
+  Document_Halyk_ВыгрузкаТоваровВМагазин_КарточкиТоваров
+    [NOM | DOCREF]
+  Document_Halyk_ВыгрузкаТоваровВМагазин_Ошибки
+    [NOM | DOCREF]
+  Document_ЗаписьКнигиПродаж_ДокументыОплаты
+    [DATE | DOCREF]
+  Document_ЗаписьКнигиПродаж_Расхождения
+    [SUM | DOCREF]
+  Document_КассовыйЧекКоррекции_Оплата
+    [SUM | DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям
+    [DATE | DOCREF]
+  Document_ОтчетЕГАИС_ОбработанныеЧеки
+    [QTY | DOCREF]
+  Document_ОтчетОРозничныхПродажах_ОплатаПлатежнымиКартами
+    [SUM | DOCREF]
+  Document_ОтчетОРозничныхПродажах_ПодарочныеСертификаты
+    [SUM | DOCREF]
+  Document_РеализацияПодарочныхСертификатов_ПодарочныеСертификаты
+    [SUM | DOCREF]
+  Document_РеализацияПодарочныхСертификатов_ОплатаПлатежнымиКартами
+    [SUM | DOCREF]
+  Document_Halyk_ЗаказыКлиентов_Товары
+    [NOM | DOCREF]
+  Document_РеализацияУслугПрочихАктивов_Расходы
+    [SUM | DOCREF]
+  Document_РеализацияУслугПрочихАктивов_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_СчетФактураНаНеподтвержденнуюРеализацию0_ПлатежноРасчетныеДокументы
+    [DATE | DOCREF]
+  Document_ЧекККМ_ОплатаПлатежнымиКартами
+    [SUM | DOCREF]
+  Document_ЧекККМ_СкидкиНаценки
+    [SUM | DOCREF]
+  Document_ЧекККМ_ПодарочныеСертификаты
+    [SUM | DOCREF]
+  Document_ЧекККМВозврат_ОплатаПлатежнымиКартами
+    [SUM | DOCREF]
+  Document_Halyk_ПоставкаТоваров_ЗаказыКлиентов
+    [CLIENT | DOCREF]
+  Document_Kaspi_ВыгрузкаТоваровВМагазин_КарточкиТоваров
+    [NOM | DOCREF]
+  Document_Kaspi_ВыгрузкаТоваровВМагазин_Ошибки
+    [NOM | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_Реализации
+    [CLIENT | DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_РеализацииКомпенсацииДоставки
+    [CLIENT | DOCREF]
+  Document_Kaspi_ЗаказыКлиентов_Товары
+    [NOM | DOCREF]
+  Document_Kaspi_ЗаявкиНаПродлениеПодписки
+    [DATE | DOCREF]
+  Document_РеализацияТоваровУслуг_СкидкиНаценки
+    [SUM | DOCREF]
+  Document_РеализацияТоваровУслуг_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_СоответствияАналитикиОбмена
+    [CHANNEL | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_Магазины
+    [CHANNEL | DOCREF]
+  ExchangePlan_Kaspi_ПланОбмена_СписокНоменклатуры
+    [NOM | DOCREF]
+  InformationRegister_Halyk_ИсторияСинхронизаций
+    [DATE | DOCREF]
+  InformationRegister_Kaspi_ТоварыПоПредзаказуНаСкладах
+    [NOM | DOCREF]
+  InformationRegister_Halyk_ИсторияВыгрузкиДокументов
+    [DATE | DOCREF]
+  InformationRegister_Halyk_ИсторияОбновленияОстатковТоваров
+    [DATE | QTY]
+  InformationRegister_Halyk_ИсторияТоваров
+    [DATE | NOM]
+  InformationRegister_Kaspi_ИсторияВыгрузкиДокументов
+    [DATE | DOCREF]
+  InformationRegister_Kaspi_ИсторияСинхронизаций
+    [DATE | DOCREF]
+  InformationRegister_Kaspi_ИсторияТоваров
+    [DATE | NOM]
+  InformationRegister_Kaspi_СтоимостьДоставкиПоКатегориямТоваров
+    [DATE | SUM]
+  InformationRegister_Ozon_ВозвратыFBS
+    [NOM | DOCREF]
+  InformationRegister_Ozon_ВыкупТоваров
+    [NOM | DOCREF]
+  InformationRegister_Ozon_ЖурналСобытий
+    [DATE | DOCREF]
+  InformationRegister_Ozon_ОграниченияВыгружаемыхОстатковТоваров
+    [NOM | QTY]
+  InformationRegister_Ozon_РаспределениеОстатковПоСкладамOzon
+    [NOM | CHANNEL]
+  InformationRegister_Ozon_СозданныеОтчеты
+    [DATE | DOCREF]
+  InformationRegister_Ozon_СостояниеУведомлений
+    [DATE | DOCREF]
+  BusinessProcess_ТиповаяПродажа
+    [DATE | DOCREF]
+  BusinessProcess_iq_ПродажаТоваровИнтернетМагазина_РезультатыСогласования
+    [DATE | DOCREF]
+  Catalog_Halyk_КарточкаТовара_images
+    [DOCREF]
+  Catalog_Halyk_КарточкаТовара_errors
+    [DOCREF]
+  Catalog_Halyk_КарточкаТовара_Предзаказ
+    [DOCREF]
+  InformationRegister_Kaspi_РеализацияТоваровПоТочкамПродаж
+    [NOM]
+  Catalog_ВидыСделокСКлиентами_ЭтапыСделкиПоПродаже
+    [DOCREF]
+  Catalog_Halyk_Отзывы_galleryImages
+    [DOCREF]
+  Catalog_Halyk_ПользовательскоеОписаниеСобытий
+    [DOCREF]
+  InformationRegister_Ozon_ПроблемыОбмена
+    [DATE]
+  Catalog_Halyk_Производители
+    [DOCREF]
+  Catalog_Ozon_Склады
+    [DOCREF]
+  Catalog_Ozon_Склады_РабочиеДни
+    [DOCREF]
+  Catalog_Halyk_Профили_СобытияПользователей
+    [DOCREF]
+  Catalog_НастройкиПродажДляПользователей_ЦеновыеГруппы
+    [DOCREF]
+  Catalog_Halyk_СписокГородов
+    [DOCREF]
+  Catalog_Halyk_ТочкиПродаж_Склады
+    [DOCREF]
+  Catalog_Halyk_ТочкиПродаж_ДополнительныеПараметрыЗаполнения
+    [DOCREF]
+  Catalog_Halyk_ХарактеристикиКатегории
+    [DOCREF]
+  Catalog_Halyk_ХарактеристикиКатегории_attributevalues
+    [DOCREF]
+  Catalog_Halyk_ХарактеристикиКатегории_Категории
+    [DOCREF]
+  InformationRegister_Ozon_НастройкиРегламентныхЗаданий
+    [DATE]
+  Catalog_Kaspi_КарточкаТовара_images
+    [DOCREF]
+  Catalog_Kaspi_КарточкаТовара_errors
+    [DOCREF]
+  Catalog_Kaspi_КарточкаТовара_Предзаказ
+    [DOCREF]
+  InformationRegister_Kaspi_НастройкиИнтеграции
+    [DOCREF]
+  Catalog_РейтингиПродажНоменклатуры
+    [DOCREF]
+  Catalog_РейтингиПродажНоменклатуры_ДополнительныеРеквизиты
+    [DOCREF]
+  InformationRegister_Ozon_СоответствиеЗначенийХарактеристик
+    [CHANNEL]
+  Catalog_Kaspi_Отзывы_galleryImages
+    [DOCREF]
+  Catalog_Kaspi_ПользовательскоеОписаниеСобытий
+    [DOCREF]
+  InformationRegister_Kaspi_УведомленияПользователей
+    [DATE]
+  Catalog_Kaspi_Профили_СобытияПользователей
+    [DOCREF]
+  Catalog_Kaspi_СписокГородов
+    [DOCREF]
+  Catalog_Kaspi_ТочкиПродаж_Склады
+    [DOCREF]
+  Catalog_Kaspi_ТочкиПродаж_ДополнительныеПараметрыЗаполнения
+    [DOCREF]
+  Catalog_Kaspi_ХарактеристикиКатегории
+    [DOCREF]
+  Catalog_Kaspi_ХарактеристикиКатегории_attributevalues
+    [DOCREF]
+  Catalog_Kaspi_ХарактеристикиКатегории_Категории
+    [DOCREF]
+  Catalog_Ozon_Аккаунты_СтатусНастроек
+    [DOCREF]
+  Catalog_Ozon_ЗначенияХарактеристик
+    [DOCREF]
+  Catalog_Ozon_КатегорииТоваров
+    [DOCREF]
+  Catalog_Ozon_КатегорииТоваров_Характеристики
+    [DOCREF]
+  Catalog_Ozon_КатегорииУведомлений
+    [DOCREF]
+  Catalog_Ozon_ОписательныеКатегорииТоваров
+    [DOCREF]
+  Catalog_Ozon_ОписательныеКатегорииТоваров_Характеристики
+    [DOCREF]
+  Catalog_Ozon_СертификатыНоменклатуры_Файлы
+    [DOCREF]
+  Catalog_Ozon_СсылкиНаДокументы
+    [DOCREF]
+  Catalog_Ozon_СсылкиНаСправочники
+    [DOCREF]
+  Catalog_Ozon_ТипыСертификатов
+    [DOCREF]
+  Catalog_Ozon_ТипыСоответствияТребованиям
+    [DOCREF]
+  Catalog_Ozon_Характеристики
+    [DOCREF]
+  Catalog_Беру_СтратегииПродаж
+    [DOCREF]
+  Catalog_Беру_СтратегииПродаж_Производители
+    [DOCREF]
+  Catalog_Беру_ТочкиПродаж
+    [DOCREF]
+  Catalog_Беру_ТочкиПродаж_КонтактнаяИнформация
+    [DOCREF]
+  Catalog_Беру_ТочкиПродаж_ГрафикРаботы
+    [DOCREF]
+  InformationRegister_Kaspi_АвторизацияЯндекс
+    [DATE]
+  Document_КорректировкаРеализации_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_НормативРаспределенияПлановПродажПоКатегориям_НормативыПоРеквизитам
+    [DOCREF]
+  Document_НормативРаспределенияПлановПродажПоКатегориям_НормативыПоСвойствам
+    [DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_Реализации
+    [DOCREF]
+  Document_Halyk_ДетальнаяИнформацияПоОперациям_Возвраты
+    [DOCREF]
+  Document_ОтчетОРозничныхПродажах_АкцизныеМарки
+    [DOCREF]
+  Document_ПланПродаж_ЭтапыГрафикаОплаты
+    [DOCREF]
+  Document_ПланПродаж_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПланПродажПоКатегориям_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_Halyk_ЗаказыКлиентов_Ошибки
+    [DOCREF]
+  Document_Halyk_ЗаказыКлиентов_История
+    [DOCREF]
+  Document_Halyk_ЗаказыКлиентов_Изображения
+    [DOCREF]
+  Document_РеализацияУслугПрочихАктивов_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЧекЕГАИС_АкцизныеМарки
+    [DOCREF]
+  Document_ЧекЕГАИСВозврат_АкцизныеМарки
+    [DOCREF]
+  Document_ЧекККМ_АкцизныеМарки
+    [DOCREF]
+  Document_ЧекККМВозврат_АкцизныеМарки
+    [DOCREF]
+  Document_Kaspi_ДетальнаяИнформацияПоОперациям_Возвраты
+    [DOCREF]
+  Document_Kaspi_ЗаказыКлиентов_Ошибки
+    [DOCREF]
+  Document_Kaspi_ЗаказыКлиентов_История
+    [DOCREF]
+  Document_Kaspi_ЗаказыКлиентов_Изображения
+    [DOCREF]
+  Document_РеализацияТоваровУслуг_ДополнительныеРеквизиты
+    [DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_ВидыЦен
+    [DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_КассыМагазинов
+    [DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_Кассы
+    [DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейРозница_Организации
+    [DOCREF]
+  ExchangePlan_Kaspi_ПланОбмена_СписокСкладов
+    [DOCREF]
+  ExchangePlan_Kaspi_ПланОбмена_СписокСтатусов
+    [DOCREF]
+  InformationRegister_Halyk_АвторизацияЯндекс
+    [DATE]
+  InformationRegister_Halyk_УведомленияПользователей
+    [DATE]
+  InformationRegister_Ozon_ОбновленияУведомлений
+    [DATE]
+  InformationRegister_СоответствиеУсловийПродажМобильногоПриложения1СЗаказы
+    [CLIENT]
+  InformationRegister_iq_ВремяРезервированияТоваровВЧеке
+    [DATE]
+  InformationRegister_Halyk_НастройкиИнтеграции
+    [DOCREF]
+  InformationRegister_Halyk_РеализацияТоваровПоТочкамПродаж
+    [NOM]
+  InformationRegister_Halyk_ТокенАвторизации
+    [DATE]
+  InformationRegister_Halyk_ХарактеристикиТоваров
+    [NOM]
+  InformationRegister_Kaspi_ИсторияОбновленияОстатковТоваров
+    [DATE]
+  InformationRegister_Kaspi_ХарактеристикиТоваров
+    [NOM]
+  InformationRegister_Ozon_АктуальностьЗначенийХарактеристик
+    [DATE]
+  InformationRegister_Ozon_АктуальностьОстатковТоваров
+    [DATE]
+  InformationRegister_Ozon_ДатыАктуальностиСправочнойИнформации
+    [DATE]
+  InformationRegister_Ozon_СоответствиеДопУслуг
+    [NOM]
+  InformationRegister_Ozon_СоответствиеОсновныхРеквизитовТовара
+    [NOM]
+  InformationRegister_Ozon_СоответствиеТоваров
+    [NOM]
+  InformationRegister_Halyk_ПодтвержденияОплатыЗаказов
+  AccumulationRegister_Kaspi_ВыручкаИСебестоимостьПродаж
+  InformationRegister_НДССостояниеРеализации0
+  InformationRegister_НормативыРаспределенияПлановПродажПоКатегориям
+  InformationRegister_Halyk_ОтгрузкаЗаказовЧерезПоставки
+  InformationRegister_Kaspi_ОтгрузкаЗаказовЧерезПоставки
+  InformationRegister_Kaspi_ПодтвержденияОплатыЗаказов
+  AccumulationRegister_Halyk_ВыручкаИСебестоимостьПродаж
+  AccumulationRegister_ВыручкаИСебестоимостьПродаж
+  AccumulationRegister_НДСЗаписиКнигиПродаж
+  AccumulationRegister_ПланыПродаж
+  AccumulationRegister_ПланыПродажПоКатегориям
+  InformationRegister_Ozon_ЗадачиЗагрузкиКодовАктивации
+  InformationRegister_ЗаданияКФормированиюЗаписейКнигиПокупокПродаж
+  InformationRegister_НумерацияЧековККТ
+  InformationRegister_Ozon_ЗаявкиНаСкидку
+  InformationRegister_Ozon_PerformanceAPIAccessToken
+  InformationRegister_Ozon_ЗадачиИмпортаНовыхТоваров
+  InformationRegister_Ozon_ЗначенияХарактеристикПоКатегориям
+  InformationRegister_Ozon_Константы
+  InformationRegister_Беру_АктивныеСтратегииПродаж
+  Constant_ВыгружатьПродажиНемаркируемойПродукцииВЕГАИС
+  Constant_КоличествоДнейХраненияОтложенныхЧеков
+  Constant_ИспользоватьРучныеСкидкиВПродажах
+  Constant_КонтролироватьСтатусыКодовМаркировкиВРозницеИСМП
+  Constant_ДатаНачалаРегистрацииРозничныхПродажВЕГАИСВСельскойМестности
+  Constant_ОтправкаЭлектронныхЧековПослеПробитияЧека
+  Constant_МультимаркетKZ_ИспользованиеМаркетплейсаKaspi
+  Constant_РазрешитьВыборВерсииФФДПриПечатиЧеков
+  Constant_ИспользоватьПланированиеПродажПоКатегориям
+  Constant_ИспользоватьКомиссиюПриПродажахБазовая
+  Constant_ИспользоватьПродажиНаЭкспорт
+  Constant_ИспользоватьПродажуАгентскихУслуг
+  Constant_ОтправлятьЭлектронныеЧекиПоSMSЧерезОФД
+  Constant_ИспользованиеЭтаповОплатыВПродажах
+  Constant_ИспользоватьПланированиеПродаж
+  Constant_НеПечататьФискальныйЧекПриОтправкеЭлектронногоЧекаПокупателю
+  Constant_ОтображениеСкидокВПечатныхФормахДокументовПродажи
+  Constant_ИспользоватьСкладыВТабличнойЧастиДокументовПродажи
+  Constant_МультимаркетKZ_ИспользованиеМаркетплейсаHalyk
+  Constant_АвтоматическиСоздаватьПартнеровПриОтправкеЭлектронногоЧекаПокупателю
+  Constant_ВариантОбособленияТоваровВПродажах
+  Constant_ВестиСведенияДляДекларацийАлкоВРознице
+  Constant_ВидМаксимальноДопустимыхЦенПродажи
+  Constant_ВидМинимальноДопустимыхЦенПродажи
+  Constant_ВыбиратьВариантВыводаСкидокПриПечатиДокументовПродажи
+  Constant_ВыполнятьРасчетТоварныхОграниченийПоКоличествуПродаж
+  Constant_ДатаНачалаРегистрацииРозничныхПродажВЕГАИС
+  Constant_ИспользоватьABCXYZКлассификациюНоменклатурыПоКоличествуПродаж
+  Constant_ИспользоватьABCXYZКлассификациюПартнеровПоКоличествуПродаж
+  Constant_ИспользоватьАвтоматическиеСкидкиВПродажах
+  Constant_ИспользоватьАктыРасхожденийПослеОтгрузкиПоРеализациям
+  Constant_ИспользоватьКомиссиюПриПродажах
+  Constant_ИспользоватьКомиссиюПриПродажахНеБазовая
+  Constant_ИспользоватьКорректировкиРеализаций
+  Constant_ИспользоватьОграниченияРучныхСкидокВПродажахПоПользователям
+  Constant_ИспользоватьОграниченияРучныхСкидокВПродажахПоСоглашениям
+  Constant_ИспользоватьПродажиНаЭкспортНесырьевыхТоваров
+  Constant_ИспользоватьПродажиНаЭкспортСырьевыхТоваровУслуг
+  Constant_ИспользоватьРеализациюПоНесколькимЗаказам
+  Constant_ИспользоватьРейтингиПродажНоменклатуры
+  Constant_ИспользоватьРозничныеПродажи
+  Constant_ИспользоватьСтатусыРеализацийТоваровУслуг
+  Constant_ИспользоватьУпрощеннуюСхемуОплатыВПродажах
+  Constant_СтоимостьТоваровПриОценкеРентабельностиПродажи
+  Constant_КоличествоДнейХраненияЗаархивированныхЧеков
+  Constant_НазначатьСкидкиПоКнопкеРасчетВЧекеККМ
+  Constant_НеВыбиратьВариантВыводаСкидокПриПечатиДокументовПродажи
+  Constant_НеИспользоватьРозничныеПродажи
+  Constant_НомерЗаданияКФормированиюЗаписейКнигиПокупокПродаж
+  Constant_ОтправлятьЭлектронныеЧекиПоEmailЧерезОФД
+  Constant_ПродажаТоваровОблагаемыхНДСУПокупателя
+  Constant_РазрешатьПродажуАлкогольнойПродукцииБезСопоставленияЕГАИС
+  Constant_ВыписыватьСчетаФактурыПоРезультатамРозничныхПродаж
+  Constant_МаксимальноеКоличествоРазличныхВидовЗапасовВОтчетеОРозничныхПродажах
+  Constant_КонтролироватьСтатусыКодовМаркировкиВРозницеМОТП
+  Constant_УказыватьИИНПриРозничныхПродажах
+  Constant_МультимаркетKZ_ИспользованиеМаркетплейсаOzon
+
+=== ВСПОМОГАТЕЛЬНЫЕ (747) ===
+  Catalog_СоглашенияСКлиентами
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ЗаказКлиента
+    [DATE | NOM | SUM | CLIENT | CHANNEL | DOCREF]
+  Document_ОтчетКомиссионера_Товары
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомиссионера_ВидыЗапасов
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомитенту_Товары
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомитенту_ВидыЗапасов
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_Товары
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_ВидыЗапасов
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ПриобретениеТоваровУслуг
+    [DATE | NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ЭлектронныйДокументВС_Товары
+    [DATE | NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_ЭлектронныйДокументВС_ТоварыВС
+    [DATE | NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_ЭлектронныйДокументВС_ИсходныеТовары
+    [DATE | NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_ЭлектронныйДокументВС_ИсходныеТоварыВС
+    [DATE | NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_СНТ_ТоварыЭкспортныйКонтроль
+    [DATE | NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_ВозвратТоваровОтКлиента
+    [DATE | NOM | SUM | CLIENT | CHANNEL | DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Catalog_СделкиСКлиентами
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомиссионераОСписании
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Catalog_ШтрихкодыУпаковокТоваров
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Catalog_ДоговорыКонтрагентов
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Catalog_Номенклатура
+    [NOM | QTY | CLIENT | CHANNEL | DOCREF]
+  Document_АктОРасхожденияхПослеОтгрузки_Товары
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ЗаказКлиента_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровМеждуОрганизациями
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ВозвратТоваровПоставщику
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ВыкупВозвратнойТарыКлиентом
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ЗаказПоставщику
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ЗаказПоставщику_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_ВозвращаемыеТовары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_ЗаменяющиеТовары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ЗаявлениеОВвозеТоваров
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ЗаявлениеОВвозеТоваров_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ОтчетКомиссионера
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомитенту
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ОтчетКомитентуОСписании
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациямиОСписании
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_ПересчетТоваров
+    [DATE | NOM | QTY | CHANNEL | DOCREF]
+  Document_ПланЗакупок_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  Document_ПорчаТоваров
+    [DATE | NOM | SUM | CHANNEL | DOCREF]
+  Document_ПоступлениеТоваров
+    [DATE | NOM | SUM | CLIENT | DOCREF]
+  Document_СписаниеНедостачТоваров
+    [DATE | NOM | SUM | CHANNEL | DOCREF]
+  Document_ТТНИсходящаяЕГАИС_Товары
+    [NOM | QTY | SUM | CLIENT | DOCREF]
+  Document_ЭСФ_Товары
+    [NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_СНТ_Товары
+    [NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_СНТ_ТоварыВС
+    [NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_СНТ_ДругиеТоварыЦифроваяМаркировка
+    [NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_СопоставлениеСНТиФНО_ТоварыСНТ
+    [NOM | QTY | SUM | CHANNEL | DOCREF]
+  Document_ВозвратТоваровОтКлиента_Товары
+    [DATE | NOM | QTY | SUM | DOCREF]
+  ExchangePlan_ОбменССайтом
+    [DATE | NOM | QTY | CHANNEL | DOCREF]
+  Document_ТТНВходящаяЕГАИС_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПланСборкиРазборки_Товары
+    [DATE | NOM | QTY | DOCREF]
+  Document_СборкаТоваров
+    [DATE | NOM | QTY | DOCREF]
+  Document_ОтчетКомиссионераОСписании_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтчетКомиссионераОСписании_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Catalog_ВидыНоменклатуры
+    [NOM | QTY | CLIENT | DOCREF]
+  InformationRegister_Беру_УпаковкиЗаказов
+    [NOM | QTY | CLIENT | DOCREF]
+  Document_ЗаказНаПеремещение
+    [DATE | NOM | CHANNEL | DOCREF]
+  Document_ЗаказКлиента_ЭтапыГрафикаОплаты
+    [DATE | NOM | SUM | DOCREF]
+  Document_АктОРасхожденияхПослеПриемки_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_АктПостановкиНаБалансЕГАИС_Товары
+    [DATE | NOM | QTY | DOCREF]
+  Document_АктСписанияЕГАИС_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВводОстатков_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровМеждуОрганизациями_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровМеждуОрганизациями_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровПоставщику_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровПоставщику_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВыкупВозвратнойТарыКлиентом_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВыкупВозвратнойТарыКлиентом_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВыкупВозвратнойТарыУПоставщика_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЗаданиеТорговомуПредставителю_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_АвансовыйОтчет
+    [DATE | QTY | SUM | DOCREF]
+  Document_АвансовыйОтчет_ПрочиеРасходы
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_АвансовыйОтчет_ОплатаПоставщикам
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ЗаказНаВнутреннееПотребление_Товары
+    [DATE | NOM | QTY | DOCREF]
+  Document_ЗаказНаСборку
+    [DATE | NOM | QTY | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_ЭтапыГрафикаОплаты
+    [DATE | NOM | SUM | DOCREF]
+  Document_КоммерческоеПредложениеКлиенту
+    [DATE | NOM | SUM | DOCREF]
+  Document_КоммерческоеПредложениеКлиенту_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_КорректировкаНалогообложенияНДСПартийТоваров_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_КорректировкаПриобретения_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_МаркировкаТоваровГИСМ_Товары
+    [DATE | NOM | QTY | DOCREF]
+  Document_МаркировкаТоваровГИСМ_Серии
+    [DATE | NOM | QTY | DOCREF]
+  Document_ОприходованиеИзлишковТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтборРазмещениеТоваров
+    [DATE | NOM | QTY | DOCREF]
+  Document_ОтчетКомитентуОСписании_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтчетКомитентуОСписании_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациямиОСписании_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациямиОСписании_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПервичныйДокумент
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ПересортицаТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПересортицаТоваров_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПересчетТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПланОстатков_Товары
+    [DATE | NOM | QTY | DOCREF]
+  Document_ПорчаТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПорчаТоваров_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПоступлениеТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПоступлениеТоваров_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПриобретениеТоваровУслуг_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПриобретениеТоваровУслуг_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  Document_ПрочееОприходованиеТоваров_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_СчетНаОплатуКлиенту
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ТаможеннаяДекларацияИмпорт_Товары
+    [NOM | QTY | SUM | DOCREF]
+  Document_УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_УведомлениеОПоступленииМаркированныхТоваровГИСМ
+    [DATE | NOM | CLIENT | DOCREF]
+  Document_ЭСФ_ТоварыПоПоставщикам
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЭСФ_ТоварыПоПолучателям
+    [NOM | QTY | SUM | DOCREF]
+  Document_ЭлектронныйДокументВходящий
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ЭлектронныйДокументИсходящий
+    [DATE | SUM | CLIENT | DOCREF]
+  Document_ЭлектронныйДокументВС
+    [DATE | NOM | SUM | DOCREF]
+  Document_СопоставлениеСНТиФНО_ТоварыФНО
+    [NOM | QTY | SUM | DOCREF]
+  Document_ВозвратТоваровОтКлиента_ВидыЗапасов
+    [NOM | QTY | SUM | DOCREF]
+  InformationRegister_ДокументыПоВыпущеннойПродукции
+    [DATE | NOM | QTY | DOCREF]
+  DocumentJournal_РеестрТорговыхДокументов
+    [DATE | SUM | CLIENT | DOCREF]
+  InformationRegister_РеестрДокументов
+    [DATE | SUM | CLIENT | DOCREF]
+  InformationRegister_ТоварныеОграничения
+    [DATE | NOM | QTY | DOCREF]
+  InformationRegister_Беру_УсловияДоставкиПоЗаказам
+    [DATE | SUM | CLIENT | DOCREF]
+  Catalog_ВариантыКомплектацииНоменклатуры
+    [NOM | QTY | DOCREF]
+  Catalog_ВариантыКомплектацииНоменклатуры_Товары
+    [NOM | QTY | DOCREF]
+  Document_ОрдерНаОтражениеПересортицыТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаОтражениеПересортицыТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Catalog_ДоговорыКредитовИДепозитов_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Catalog_ДоговорыМеждуОрганизациями_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Document_СборкаТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_СборкаТоваров_ВидыЗапасовСписание
+    [NOM | QTY | DOCREF]
+  Document_СборкаТоваров_ВидыЗапасовОприходование
+    [NOM | QTY | DOCREF]
+  Document_СборкаТоваров_Серии
+    [NOM | QTY | DOCREF]
+  Catalog_СерииНоменклатуры
+    [DATE | NOM | DOCREF]
+  Catalog_СкладскиеГруппыНоменклатуры
+    [NOM | QTY | DOCREF]
+  Catalog_iq_СпособыДоставкиТоваров
+    [SUM | CHANNEL | DOCREF]
+  Document_iq_НазначениеТоваровДня
+    [DATE | NOM | DOCREF]
+  Catalog_СценарииТоварногоПланирования
+    [DATE | SUM | DOCREF]
+  Document_ОрдерНаОтражениеНедостачТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаОтражениеНедостачТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Catalog_ШтрихкодыУпаковокТоваров_ВложенныеТовары
+    [NOM | QTY | DOCREF]
+  Document_ОрдерНаОтражениеИзлишковТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаОтражениеИзлишковТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Catalog_ДоговорыКонтрагентов_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Catalog_СоглашенияСКлиентами_Товары
+    [NOM | SUM | DOCREF]
+  DocumentJournal_ОтчетыКомиссионеров
+    [DATE | SUM | CLIENT]
+  Document_ЗаказНаПеремещение_Товары
+    [NOM | QTY | DOCREF]
+  Document_ЗаказНаПеремещение_ТоварыКПеремещению
+    [NOM | QTY | DOCREF]
+  Document_ЗаказНаПеремещение_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_АктОРасхожденияхПослеПеремещения_Товары
+    [NOM | QTY | DOCREF]
+  Document_ВнутреннееПотреблениеТоваров
+    [DATE | NOM | DOCREF]
+  Document_ВнутреннееПотреблениеТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_ВнутреннееПотреблениеТоваров_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_ВнутреннееПотреблениеТоваров_Серии
+    [NOM | QTY | DOCREF]
+  Document_ВозвратИзРегистра2ЕГАИС
+    [DATE | NOM | DOCREF]
+  Document_ВозвратИзРегистра2ЕГАИС_Товары
+    [NOM | QTY | DOCREF]
+  Document_ВозвратТоваровПоставщику_Серии
+    [NOM | QTY | DOCREF]
+  Document_ДоверенностьВыданная_Товары
+    [NOM | QTY | DOCREF]
+  Document_ЗаказНаВнутреннееПотребление
+    [DATE | NOM | DOCREF]
+  Document_ЗаказНаСборку_Товары
+    [NOM | QTY | DOCREF]
+  Document_ЗаказНаСборку_Серии
+    [NOM | QTY | DOCREF]
+  Document_ЗаказПоставщику_ЭтапыГрафикаОплаты
+    [DATE | SUM | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_ВозвращаемыеСерии
+    [NOM | QTY | DOCREF]
+  Document_ЗаявкаНаВыпускКиЗГИСМ_ЗаказанныеКиЗ
+    [NOM | QTY | DOCREF]
+  Document_ЗаявкаНаРасходованиеДенежныхСредств_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Document_ЗаявлениеОВвозеТоваров_УчастникиСделки
+    [DATE | CLIENT | DOCREF]
+  Document_КорректировкаВидаДеятельностиНДС_Товары
+    [NOM | QTY | DOCREF]
+  Document_ОтчетБанкаПоОперациямЭквайринга
+    [DATE | SUM | DOCREF]
+  Document_ОтчетБанкаПоОперациямЭквайринга_Покупки
+    [DATE | SUM | DOCREF]
+  Document_ОтчетБанкаПоОперациямЭквайринга_Возвраты
+    [DATE | SUM | DOCREF]
+  Document_КорректировкаИзлишковНедостачПоТоварнымМестам
+    [DATE | NOM | DOCREF]
+  Document_КорректировкаИзлишковНедостачПоТоварнымМестам_Товары
+    [NOM | QTY | DOCREF]
+  Document_КорректировкаНазначенияТоваров
+    [DATE | NOM | DOCREF]
+  Document_КорректировкаНазначенияТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_КорректировкаНазначенияТоваров_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_КорректировкаОбособленногоУчетаЗапасов_Товары
+    [NOM | QTY | DOCREF]
+  Document_КорректировкаПоОрдеруНаТовары
+    [DATE | NOM | DOCREF]
+  Document_КорректировкаПоОрдеруНаТовары_Товары
+    [NOM | QTY | DOCREF]
+  Document_МаркировкаТоваровГИСМ
+    [DATE | NOM | DOCREF]
+  Document_МаркировкаТоваровГИСМ_СерииКиЗ
+    [NOM | QTY | DOCREF]
+  Document_МаркировкаТоваровГИСМ_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_ОприходованиеИзлишковТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаОтражениеПорчиТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаОтражениеПорчиТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_ОрдерНаПеремещениеТоваров
+    [DATE | NOM | DOCREF]
+  Document_ОрдерНаПеремещениеТоваров_ОтгружаемыеТовары
+    [NOM | QTY | DOCREF]
+  Document_ОтборРазмещениеТоваров_ТоварыОтбор
+    [NOM | QTY | DOCREF]
+  Document_ОтборРазмещениеТоваров_ТоварыРазмещение
+    [NOM | QTY | DOCREF]
+  Document_ОтчетЕГАИС_ДвиженияМеждуРегистрами
+    [DATE | QTY | DOCREF]
+  Document_ОтчетЕГАИС_ДвиженияПоСправке2
+    [DATE | QTY | DOCREF]
+  Document_ОтчетКомиссионера_ЭтапыГрафикаОплаты
+    [DATE | SUM | DOCREF]
+  Document_ОтчетКомитенту_ЭтапыГрафикаОплаты
+    [DATE | SUM | DOCREF]
+  Document_ПередачаВРегистр2ЕГАИС
+    [DATE | NOM | DOCREF]
+  Document_ПередачаВРегистр2ЕГАИС_Товары
+    [NOM | QTY | DOCREF]
+  Document_ПеремаркировкаТоваровГИСМ
+    [DATE | NOM | DOCREF]
+  Document_ПеремаркировкаТоваровГИСМ_Товары
+    [NOM | QTY | DOCREF]
+  Document_ПеремаркировкаТоваровГИСМ_СерииКиЗ
+    [NOM | QTY | DOCREF]
+  Document_ПеремаркировкаТоваровГИСМ_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_ПеремещениеТоваров
+    [DATE | NOM | DOCREF]
+  Document_ПеремещениеТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_ПеремещениеТоваров_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_ПеремещениеТоваров_Серии
+    [NOM | QTY | DOCREF]
+  Document_ПересортицаТоваров
+    [DATE | NOM | DOCREF]
+  Document_ПоступлениеТоваров_Серии
+    [NOM | QTY | DOCREF]
+  Document_ПриобретениеТоваровУслуг_Серии
+    [NOM | QTY | DOCREF]
+  Document_ПриходныйОрдерНаТовары
+    [DATE | NOM | DOCREF]
+  Document_ПриходныйОрдерНаТовары_Товары
+    [NOM | QTY | DOCREF]
+  Document_ПрочееОприходованиеТоваров
+    [DATE | NOM | DOCREF]
+  Document_ПрочееОприходованиеТоваров_Серии
+    [NOM | QTY | DOCREF]
+  Document_ПрочееОприходованиеТоваров_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_РаспоряжениеНаПеремещениеДенежныхСредств_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Document_РасходныйОрдерНаТовары
+    [DATE | NOM | DOCREF]
+  Document_РасходныйОрдерНаТовары_ТоварыПоРаспоряжениям
+    [NOM | QTY | DOCREF]
+  Document_РасходныйОрдерНаТовары_ОтгружаемыеТовары
+    [NOM | QTY | DOCREF]
+  Document_РегистрацияЦенНоменклатурыПоставщика
+    [DATE | NOM | DOCREF]
+  Document_РегистрацияЦенНоменклатурыПоставщика_Товары
+    [NOM | SUM | DOCREF]
+  Document_СписаниеНедостачТоваров_Товары
+    [NOM | QTY | DOCREF]
+  Document_СписаниеНедостачТоваров_ВидыЗапасов
+    [NOM | QTY | DOCREF]
+  Document_СправкаОПодтверждающихДокументах
+    [DATE | CLIENT | DOCREF]
+  Document_СправкаОПодтверждающихДокументах_ПодтверждающиеДокументы
+    [DATE | SUM | DOCREF]
+  Document_СчетНаОплатуКлиенту_ЭтапыГрафикаОплаты
+    [DATE | SUM | DOCREF]
+  Document_СчетФактураПолученныйНалоговыйАгент_ДокументыОснования
+    [DATE | SUM | DOCREF]
+  Document_УведомлениеОбИмпортеМаркированныхТоваровГИСМ
+    [DATE | NOM | DOCREF]
+  Document_УведомлениеОбИмпортеМаркированныхТоваровГИСМ_Товары
+    [NOM | QTY | DOCREF]
+  Document_УведомлениеОбОтгрузкеМаркированныхТоваровГИСМ_НомераКиЗ
+    [DATE | SUM | DOCREF]
+  Document_УведомлениеОВвозеМаркированныхТоваровИзЕАЭСГИСМ
+    [DATE | CLIENT | DOCREF]
+  Document_УпаковочныйЛист_Товары
+    [NOM | QTY | DOCREF]
+  Document_УстановкаЦенНоменклатуры
+    [DATE | NOM | DOCREF]
+  Document_УстановкаЦенНоменклатуры_Товары
+    [NOM | SUM | DOCREF]
+  Document_ВозвратТоваровОтКлиента_Серии
+    [NOM | QTY | DOCREF]
+  Document_ВозвратТоваровОтКлиента_НачислениеБонусныхБаллов
+    [DATE | SUM | DOCREF]
+  Document_ВозвратТоваровОтКлиента_ОплатаБонуснымиБаллами
+    [DATE | SUM | DOCREF]
+  InformationRegister_ДействиеСкидокНаценокПоНоменклатуре
+    [DATE | NOM | CHANNEL]
+  InformationRegister_СчетаФактурыКомитентовКРегистрации
+    [DATE | SUM | CLIENT]
+  InformationRegister_iq_СостоянияЗаказов
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_СостоянияЗаказовКлиентов
+    [DATE | SUM | DOCREF]
+  InformationRegister_СостоянияЗаказовПоставщикам
+    [DATE | SUM | DOCREF]
+  InformationRegister_СтатусыОформленияДокументовЕГАИС
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_СтатусыУведомленийОПоступленииМаркированныхТоваровГИСМ
+    [NOM | QTY | DOCREF]
+  InformationRegister_Беру_ВременныеЦеныТоваров
+    [DATE | NOM | SUM]
+  InformationRegister_Беру_ДанныеОЗаказах
+    [DATE | CLIENT | DOCREF]
+  InformationRegister_Беру_ИдентификаторыТоваровВЗаказе
+    [NOM | CLIENT | DOCREF]
+  DocumentJournal_ОтчетыКомитентам
+    [DATE | SUM | CLIENT]
+  InformationRegister_ОчередьСообщенийВ1СДокументооборот
+    [DATE | QTY]
+  Document_РасчетСебестоимостиТоваров
+    [DATE | DOCREF]
+  Catalog_ВидыСделокСКлиентами
+    [NOM | DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями_РасшифровкаПлатежаСКлиентом
+    [SUM | DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями_РасшифровкаПлатежаСПоставщиком
+    [SUM | DOCREF]
+  InformationRegister_ДатыПоступленияТоваровОрганизаций
+    [DATE | NOM]
+  Catalog_КлючиАналитикиУчетаНоменклатуры
+    [NOM | DOCREF]
+  Catalog_КоллекцииНоменклатуры
+    [DATE | DOCREF]
+  ExchangePlan_СинхронизацияДанныхЧерезУниверсальныйФормат_ВидыЦенНоменклатуры
+    [NOM | DOCREF]
+  Catalog_НоменклатураПоставщиков
+    [NOM | DOCREF]
+  Catalog_СегментыНоменклатуры
+    [DATE | DOCREF]
+  Catalog_ПодпискиНаРассылкиИОповещенияКлиентам
+    [QTY | DOCREF]
+  Catalog_ПретензииКлиентов
+    [DATE | DOCREF]
+  Catalog_ПричиныОтменыЗаказовКлиентов
+    [CLIENT | DOCREF]
+  Catalog_РассылкиОтчетов
+    [DATE | DOCREF]
+  Catalog_Сайты
+    [CHANNEL | DOCREF]
+  Catalog_СделкиСКлиентами_ПервичныйСпрос
+    [SUM | DOCREF]
+  Catalog_СертификатыНоменклатуры
+    [DATE | DOCREF]
+  Catalog_СоглашенияОбИспользованииЭД_ИсходящиеДокументы
+    [CLIENT | DOCREF]
+  Catalog_СоглашенияОбИспользованииЭД_СертификатыПодписейКонтрагента
+    [CLIENT | DOCREF]
+  Document_iq_НазначениеТоваровДня_ТоварыДня
+    [NOM | DOCREF]
+  Document_ОтчетКомиссионераОСписании_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_iq_ПроведениеАкций_Товары
+    [NOM | DOCREF]
+  Catalog_iq_РекомендуемыеТовары
+    [NOM | DOCREF]
+  Catalog_ВиртуальныеСкладыКонтрагента
+    [CLIENT | DOCREF]
+  Catalog_ДоговорыКонтрагентов_КалькуляцияЗатрат
+    [SUM | DOCREF]
+  Catalog_Контрагенты
+    [CLIENT | DOCREF]
+  Catalog_Контрагенты_ИсторияКПП
+    [DATE | DOCREF]
+  Catalog_Контрагенты_ИсторияНаименований
+    [DATE | DOCREF]
+  Catalog_Номенклатура_ДрагоценныеМатериалы
+    [QTY | DOCREF]
+  Catalog_ХарактеристикиНоменклатуры
+    [CLIENT | DOCREF]
+  Document_АктОРасхожденияхПослеОтгрузки_ПриемкаТоваров
+    [DATE | DOCREF]
+  Document_ЗаказКлиента_СкидкиНаценки
+    [SUM | DOCREF]
+  Document_АктОРасхожденияхПослеПриемки_ПриемкаТоваров
+    [DATE | DOCREF]
+  Document_ВводОстатков_РасчетыСПодотчетниками
+    [SUM | DOCREF]
+  Document_ВозвратТоваровМеждуОрганизациями_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_ВозвратТоваровПоставщику_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_ВыкупВозвратнойТарыКлиентом_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_ЗаданиеТорговомуПредставителю_ДолгиПоЗаказам
+    [CLIENT | DOCREF]
+  Document_АвансовыйОтчет_ВыплатаЗаработнойПлаты
+    [SUM | DOCREF]
+  Document_АвансовыйОтчет_ОплатаПоИсполнительнымЛистам
+    [SUM | DOCREF]
+  Document_АвансовыйОтчет_КонвертацияВалюты
+    [SUM | DOCREF]
+  Document_ЗаписьКнигиПокупок_ДокументыОплаты
+    [DATE | DOCREF]
+  Document_ЗапросАкцизныхМарокЕГАИС_Товары
+    [NOM | DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_СкидкиНаценки
+    [SUM | DOCREF]
+  Document_ЗаявкаНаРасходованиеДенежныхСредств_ДоговорыСЗаказчиками
+    [SUM | DOCREF]
+  Document_ЗаявлениеОВвозеТоваров_Спецификации
+    [DATE | DOCREF]
+  Document_ИзменениеАссортимента_Товары
+    [NOM | DOCREF]
+  Document_КоммерческоеПредложениеКлиенту_СкидкиНаценки
+    [SUM | DOCREF]
+  Document_КорректировкаНалогообложенияНДСПартийТоваров
+    [DATE | DOCREF]
+  Document_КорректировкаРегистров
+    [DATE | DOCREF]
+  Document_ОтчетЕГАИС
+    [DATE | DOCREF]
+  Document_ОтчетЕГАИС_НеобработанныеТТН
+    [DATE | DOCREF]
+  Document_ОтчетЕГАИС_ОстаткиАлкогольнойПродукции
+    [QTY | DOCREF]
+  Document_ОтчетЕГАИС_ИсторияСправок2
+    [QTY | DOCREF]
+  Document_ОтчетКомиссионера_РасшифровкаПлатежаСКлиентом
+    [SUM | DOCREF]
+  Document_ОтчетКомиссионера_РасшифровкаПлатежаСПоставщиком
+    [SUM | DOCREF]
+  Document_ОтчетКомитенту_РасшифровкаПлатежаСКлиентом
+    [SUM | DOCREF]
+  Document_ОтчетКомитенту_РасшифровкаПлатежаСПоставщиком
+    [SUM | DOCREF]
+  Document_ОтчетКомитентуОСписании_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_РасшифровкаПлатежаСКлиентом
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_РасшифровкаПлатежаСПоставщиком
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_РасшифровкаПлатежаСКлиентомВознаграждение
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациями_РасшифровкаПлатежаСПоставщикомВознаграждение
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациямиОСписании_РасшифровкаПлатежаСКлиентом
+    [SUM | DOCREF]
+  Document_ОтчетПоКомиссииМеждуОрганизациямиОСписании_РасшифровкаПлатежаСПоставщиком
+    [SUM | DOCREF]
+  Document_ПриобретениеТоваровУслуг_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  BusinessProcess_СогласованиеЗаявкиНаВозвратТоваровОтКлиента
+    [DATE | DOCREF]
+  BusinessProcess_СогласованиеЗаявкиНаВозвратТоваровОтКлиента_РезультатыСогласования
+    [DATE | DOCREF]
+  Document_РаспределениеНДС_ДокументыЭкспорт
+    [SUM | DOCREF]
+  Document_РассылкаКлиентам
+    [DATE | DOCREF]
+  Document_РегистраторГрафикаДвиженияТоваров
+    [DATE | DOCREF]
+  Document_СверкаВзаиморасчетов_ДанныеКонтрагента
+    [SUM | DOCREF]
+  Document_СчетФактураКомиссионеру_ПлатежноРасчетныеДокументы
+    [DATE | DOCREF]
+  Document_СчетФактураВыданный_ДокументыОснования
+    [DATE | DOCREF]
+  Document_СчетФактураВыданный_ПлатежноРасчетныеДокументы
+    [DATE | DOCREF]
+  Document_СчетФактураПолученный_ДокументыОснования
+    [DATE | DOCREF]
+  Document_УведомлениеОВвозеМаркированныхТоваровИзЕАЭСГИСМ_НомераКиЗ
+    [SUM | DOCREF]
+  Document_УведомлениеОПоступленииМаркированныхТоваровГИСМ_НомераКиЗ
+    [SUM | DOCREF]
+  Document_УстановкаКвотАссортимента_ТоварныеКатегории
+    [NOM | DOCREF]
+  Document_ВозвратТоваровОтКлиента_РасшифровкаПлатежа
+    [SUM | DOCREF]
+  ExchangePlan_ИнтеграцияС1СДокументооборотом
+    [DATE | DOCREF]
+  ExchangePlan_МобильноеПриложениеЗаказыКлиентов
+    [DATE | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейБухгалтерияПредприятия_ВидыЦенНоменклатуры
+    [NOM | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейБухгалтерияПредприятия30_ВидыЦенНоменклатуры
+    [NOM | DOCREF]
+  ExchangePlan_ОбменУправлениеТорговлейДокументооборот
+    [DATE | DOCREF]
+  InformationRegister_СоответствиеВидовНоменклатурыРаботаСНоменклатурой
+    [DATE | NOM]
+  InformationRegister_ABCXYZКлассификацияНоменклатуры
+    [DATE | NOM]
+  InformationRegister_ДатыПередачиТоваровНаКомиссию
+    [DATE | NOM]
+  InformationRegister_ДанныеПервичныхДокументов
+    [DATE | DOCREF]
+  InformationRegister_ДокументыФизическихЛиц
+    [DATE | DOCREF]
+  InformationRegister_ДоступностьТоваровДляВнешнихПользователей
+    [DATE | NOM]
+  InformationRegister_КонтрагентыНаМониторингеСПАРКРиски
+    [DATE | CLIENT]
+  InformationRegister_НоменклатураПродаваемаяСовместно
+    [NOM | QTY]
+  InformationRegister_ОчередьЗаказовККорректировкеСтрокМерныхТоваров
+    [DATE | DOCREF]
+  InformationRegister_ОчередьСобытийДляОповещенийКлиентам
+    [DATE | CHANNEL]
+  InformationRegister_iq_ВесОбъемТоваров
+    [NOM | QTY]
+  InformationRegister_СоответствиеНоменклатурыРаботаСНоменклатурой
+    [DATE | NOM]
+  InformationRegister_СоответствияНаименованийИСсылокТоваров
+    [NOM | CLIENT]
+  InformationRegister_СостоянияОбменовССайтом
+    [DATE | CHANNEL]
+  InformationRegister_СостоянияСогласованияВДокументообороте
+    [DATE | DOCREF]
+  InformationRegister_ТоварыКДоставке
+    [NOM | QTY]
+  InformationRegister_УспешныеОбменыССайтом
+    [DATE | CHANNEL]
+  InformationRegister_СведенияОНоменклатуреГСВС
+    [DATE | NOM]
+  InformationRegister_СтатусыОформленияДокументов
+    [DATE | DOCREF]
+  InformationRegister_СоответствиеНаименованийИСсылокЕдиницИзмеренийИТоваров
+    [NOM | CLIENT]
+  InformationRegister_Беру_НесозданныеЗаказы
+    [CLIENT | DOCREF]
+  BusinessProcess_СогласованиеЦенНоменклатуры
+    [DATE | DOCREF]
+  BusinessProcess_СогласованиеЦенНоменклатуры_РезультатыСогласования
+    [DATE | DOCREF]
+  InformationRegister_НоменклатураСегмента
+    [NOM]
+  Catalog_БанковскиеСчетаКонтрагентов
+    [DOCREF]
+  Catalog_ВариантыАнализаЦелевыхПоказателей_ОтчетыДляРасшифровки
+    [DOCREF]
+  Catalog_ВариантыОтчетов
+    [DOCREF]
+  Catalog_ВариантыОтчетов_Размещение
+    [DOCREF]
+  Document_РасчетСебестоимостиТоваров_Организации
+    [DOCREF]
+  Catalog_ВидыДокументовФизическихЛиц
+    [DOCREF]
+  Catalog_ВидыДокументовФизическихЛиц_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_ПредопределенныеВариантыОтчетовРасширений
+    [DOCREF]
+  Catalog_ПредопределенныеВариантыОтчетовРасширений_Размещение
+    [DOCREF]
+  Catalog_ВидыОповещенийКлиентам
+    [DOCREF]
+  Catalog_ВидыОповещенийКлиентам_ПараметрыУсловия
+    [DOCREF]
+  InformationRegister_ОбластиДействияСертификатовНоменклатуры
+    [NOM]
+  Catalog_ГруппировкиТоварныхОграничений
+    [DOCREF]
+  Catalog_ГруппыАналитическогоУчетаНоменклатуры
+    [DOCREF]
+  Catalog_ГруппыДоступаНоменклатуры
+    [DOCREF]
+  Document_ПередачаТоваровМеждуОрганизациями_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_ГруппыФинансовогоУчетаНоменклатуры
+    [DOCREF]
+  Catalog_ДоговорыМеждуОрганизациями_ДоговорыСЗаказчиками
+    [DOCREF]
+  Catalog_ДополнительныеОтчетыИОбработки
+    [DOCREF]
+  Catalog_ДополнительныеОтчетыИОбработки_Команды
+    [DOCREF]
+  Catalog_ДополнительныеОтчетыИОбработки_Назначение
+    [DOCREF]
+  Catalog_ДополнительныеОтчетыИОбработки_Разделы
+    [DOCREF]
+  Catalog_ДополнительныеОтчетыИОбработки_Разрешения
+    [DOCREF]
+  Catalog_iq_ОписаниеТовара
+    [DOCREF]
+  DocumentJournal_РегламентныеДокументы
+    [DATE]
+  Catalog_КлючиРеестраДокументов
+    [DOCREF]
+  Catalog_КоллекцииНоменклатуры_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_НастройкиХозяйственныхОпераций_ПоказателиРегистра
+    [DOCREF]
+  Catalog_НастройкиХозяйственныхОпераций_Документы
+    [DOCREF]
+  Catalog_НастройкиОбменСБанками_ИсходящиеДокументы
+    [DOCREF]
+  Catalog_ПодпискиНаРассылкиИОповещенияКлиентам_КонтактныеЛица
+    [DOCREF]
+  Catalog_ПодключаемоеОборудование_ПараметрыРегистрации
+    [DOCREF]
+  Catalog_ПользовательскиеНастройкиОтчетов
+    [DOCREF]
+  Catalog_ПоставляемыеДополнительныеОтчетыИОбработки
+    [DOCREF]
+  Catalog_ПоставляемыеДополнительныеОтчетыИОбработки_Команды
+    [DOCREF]
+  Catalog_ПоставляемыеДополнительныеОтчетыИОбработки_Совместимость
+    [DOCREF]
+  Catalog_ПоставляемыеДополнительныеОтчетыИОбработки_Разрешения
+    [DOCREF]
+  Catalog_ПравилаИнтеграцииС1СДокументооборотом
+    [DOCREF]
+  Catalog_ПравилаИнтеграцииС1СДокументооборотом_ПравилаЗаполненияРеквизитовПриВыгрузке
+    [DOCREF]
+  Catalog_ПравилаИнтеграцииС1СДокументооборотом_ПравилаЗаполненияРеквизитовПриЗагрузке
+    [DOCREF]
+  Catalog_ПравилаИнтеграцииС1СДокументооборотом_ПрисоединяемыеПечатныеФормы
+    [DOCREF]
+  Catalog_ПретензииКлиентов_ПартнерыИКонтактныеЛица
+    [DOCREF]
+  Catalog_ПретензииКлиентов_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_ПредопределенныеВариантыОтчетов
+    [DOCREF]
+  Catalog_ПредопределенныеВариантыОтчетов_Размещение
+    [DOCREF]
+  Catalog_ПричиныОтменыЗаказовПоставщикам
+    [DOCREF]
+  Catalog_ПрофилиНастроекЭДО_ИсходящиеДокументы
+    [DOCREF]
+  Catalog_РассылкиОтчетов_Отчеты
+    [DOCREF]
+  Catalog_РассылкиОтчетов_ФорматыОтчетов
+    [DOCREF]
+  Catalog_РассылкиОтчетов_Получатели
+    [DOCREF]
+  Catalog_РегистрацииВНалоговомОргане
+    [DOCREF]
+  Catalog_РегистрацииВНалоговомОргане_КонтактнаяИнформация
+    [DOCREF]
+  Catalog_СделкиСКлиентами_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_СделкиСКлиентами_ПартнерыИКонтактныеЛица
+    [DOCREF]
+  Catalog_СделкиСКлиентами_НаборыЗначенийДоступа
+    [DOCREF]
+  Catalog_СерииНоменклатуры_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_СертификатыНоменклатуры_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_СоглашенияОбИспользованииЭД_ВходящиеДокументы
+    [DOCREF]
+  Catalog_iq_СпособыДоставкиТоваров_Тарифы
+    [DOCREF]
+  Catalog_iq_СостоянияЗаказа
+    [DOCREF]
+  Catalog_iq_СпособыОплатыЗаказа
+    [DOCREF]
+  Document_ОтчетКомиссионераОСписании_ДополнительныеРеквизиты
+    [DOCREF]
+  InformationRegister_ЗаданияКРаспределениюРасчетовСКлиентами
+    [DOCREF]
+  Catalog_ШтрихкодыУпаковокТоваров_ВложенныеШтрихкоды
+    [DOCREF]
+  Catalog_НоменклатураГСВС
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_РеквизитыДляКонтроляНоменклатуры
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_РеквизитыДляКонтроляХарактеристик
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_РеквизитыДляКонтроляСерий
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_РеквизитыБыстрогоОтбораНоменклатуры
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_РеквизитыБыстрогоОтбораХарактеристик
+    [DOCREF]
+  Catalog_ВидыНоменклатуры_ПолитикиУчетаСерий
+    [DOCREF]
+  Catalog_ДоговорыКонтрагентов_ДоговорыСЗаказчиками
+    [DOCREF]
+  Catalog_ДоговорыКонтрагентов_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_Контрагенты_КонтактнаяИнформация
+    [DOCREF]
+  Catalog_Контрагенты_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_Номенклатура_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_СоглашенияСКлиентами_ЦеновыеГруппы
+    [DOCREF]
+  Catalog_СоглашенияСКлиентами_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_СоглашенияСКлиентами_ЭтапыГрафикаОплаты
+    [DOCREF]
+  Catalog_ТоварныеКатегории
+    [DOCREF]
+  Catalog_ТоварныеКатегории_ДополнительныеРеквизиты
+    [DOCREF]
+  Catalog_ХарактеристикиНоменклатуры_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаказНаПеремещение_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаказКлиента_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ВнутреннееПотреблениеТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ВыкупВозвратнойТарыКлиентом_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_АвансовыйОтчет_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаказНаВнутреннееПотребление_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаказНаСборку_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаказПоставщику_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ЗаявкаНаВозвратТоваровОтКлиента_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_КоммерческоеПредложениеКлиенту_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_КорректировкаРегистров_ТаблицаРегистров
+    [DOCREF]
+  Document_ОприходованиеИзлишковТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ОтчетЕГАИС_ИнформацияОбОрганизацииЕГАИС
+    [DOCREF]
+  Document_ОтчетЕГАИС_АкцизныеМарки
+    [DOCREF]
+  Document_ОтчетКомиссионера_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ОтчетКомитенту_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ОтчетКомитентуОСписании_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПакетЭД_ЭлектронныеДокументы
+    [DOCREF]
+  Document_ПеремещениеТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПересортицаТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПорчаТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПоступлениеТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПриобретениеТоваровУслуг_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ПрочееОприходованиеТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_РассылкаКлиентам_ДополнительныеПолучатели
+    [DOCREF]
+  Document_РасходныйОрдерНаТовары_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_РегистрацияЦенНоменклатурыПоставщика_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_СписаниеНедостачТоваров_ДополнительныеРеквизиты
+    [DOCREF]
+  Document_ТранспортнаяНакладная_ДокументыОснования
+    [DOCREF]
+  Document_УведомлениеОбИмпортеМаркированныхТоваровГИСМ_НомераКиЗ
+    [DOCREF]
+  Document_УстановкаЦенНоменклатуры_ВидыЦен
+    [DOCREF]
+  Document_УстановкаЦенНоменклатуры_НаборыЗначенийДоступа
+    [DOCREF]
+  Document_ЭлектронныйДокументВходящий_ДокументыОснования
+    [DOCREF]
+  Document_ЭлектронныйДокументВходящий_ИдентификаторыОснованийВладельцаФайла
+    [DOCREF]
+  Document_ЭлектронныйДокументИсходящий_ДокументыОснования
+    [DOCREF]
+  Document_ЭлектронныйДокументИсходящий_ИдентификаторыОснованийВладельцаФайла
+    [DOCREF]
+  Document_ЭлектронныйДокументИсходящий_СписокПодписантов
+    [DOCREF]
+  Document_ЭлектронныйДокументВС_Ошибки
+    [DOCREF]
+  Document_ВозвратТоваровОтКлиента_АкцизныеМарки
+    [DOCREF]
+  InformationRegister_ABCXYZКлассификацияКлиентов
+    [DATE]
+  InformationRegister_АналитикаУчетаНоменклатуры
+    [NOM]
+  InformationRegister_ВариантыОбеспеченияТоварами
+    [NOM]
+  InformationRegister_ДанныеОбъектовДляРегистрацииВОбменах
+    [DOCREF]
+  InformationRegister_ДокументыСОшибкамиПроверкиКонтрагентов
+    [DOCREF]
+  InformationRegister_ЖурналРегистрацииАгентаКопированияОблачногоАрхива
+    [DATE]
+  InformationRegister_ЗаданияКРаспределениюТоваровОрганизацийНаПроизводство
+    [DATE]
+  InformationRegister_ИдентификаторыДокументовОснованийВладельцевЭД
+    [DOCREF]
+  InformationRegister_КодыТоваровПодключаемогоОборудованияOffline
+    [NOM]
+  InformationRegister_НастройкаПередачиТоваровМеждуОрганизациями
+    [NOM]
+  InformationRegister_ОбъектыИнтегрированныеС1СДокументооборотом
+    [DOCREF]
+  InformationRegister_iq_КатегорииТоваров
+    [NOM]
+  InformationRegister_iq_ФильтрыТоваровИнтернетМагазина
+    [NOM]
+  InformationRegister_ПравилаРазмещенияТоваровВЯчейках
+    [NOM]
+  InformationRegister_РазмещениеНоменклатурыПоСкладскимЯчейкам
+    [NOM]
+  InformationRegister_СвойстваКонтрагентовСПАРКРиски
+    [CLIENT]
+  InformationRegister_СоответствиеНоменклатурыЕГАИС
+    [NOM]
+  InformationRegister_СоответствиеНоменклатурыМобильногоПриложения1СЗаказы
+    [NOM]
+  InformationRegister_СостоянияВнутреннихЗаказов
+    [DOCREF]
+  InformationRegister_СостоянияКонтрагентов
+    [CLIENT]
+  InformationRegister_СостоянияКонтрагентовБЭД
+    [CLIENT]
+  InformationRegister_СостоянияРассылокОтчетов
+    [DOCREF]
+  InformationRegister_СтатистикаСделокСКлиентами
+    [DATE]
+  InformationRegister_СтатусыДокументовЕГАИС
+    [DOCREF]
+  InformationRegister_СтатусыУведомленийОбОтгрузкеМаркированныхТоваровГИСМ
+    [DOCREF]
+  InformationRegister_ТоварыДругогоКачества
+    [NOM]
+  InformationRegister_ШтрихкодыНоменклатуры
+    [NOM]
+  InformationRegister_ОсновныеВиртуальныеСкладыКонтрагентов
+    [CLIENT]
+  InformationRegister_WhatsApp_ИсходящиеУведомленияКлиентов
+    [DATE]
+  InformationRegister_Беру_SKUТоваров
+    [NOM]
+  InformationRegister_Беру_ЗаказыКОтмене
+    [DATE]
+  InformationRegister_Беру_ТоварыДляDBS
+    [NOM]
+  InformationRegister_Беру_ФотографииТоваров
+    [NOM]
+  DocumentJournal_АвансовыеОтчеты
+    [DATE]
+  DocumentJournal_ДокументыЕГАИС
+    [DATE]
+  InformationRegister_СуммыДокументовВВалютеРегл
+  AccumulationRegister_ТоварыНаСкладах
+  AccumulationRegister_ПартииРасходовНаСебестоимостьТоваров
+  AccumulationRegister_ТоварыПринятые
+  AccumulationRegister_ТоварыУПартнеров
+  InformationRegister_СтоимостьТоваров
+  AccumulationRegister_ПланыОплатКлиентов
+  InformationRegister_ОшибочныеРеквизитыКонтрагентов
+  AccumulationRegister_ЗаказыНаПеремещение
+  AccumulationRegister_ТоварыОрганизаций
+  InformationRegister_ЦеныНоменклатурыПоставщиков
+  AccumulationRegister_РасчетыСПоставщикамиПоДокументам
+  AccumulationRegister_ТоварныеМестаКОтражениюИзлишковНедостач
+  InformationRegister_ЦеныНоменклатуры
+  AccumulationRegister_ГрафикОтгрузкиТоваров
+  AccumulationRegister_ГрафикПоступленияТоваров
+  AccumulationRegister_ДвижениеТоваров
+  AccumulationRegister_ДвиженияДенежныеСредстваКонтрагент
+  AccumulationRegister_ДвиженияКонтрагентДоходыРасходы
+  AccumulationRegister_ДвиженияКонтрагентКонтрагент
+  AccumulationRegister_ДвиженияНоменклатураДоходыРасходы
+  AccumulationRegister_ДвиженияНоменклатураНоменклатура
+  AccumulationRegister_ДвиженияСерийТоваров
+  AccumulationRegister_ДенежныеСредстваУПодотчетныхЛиц
+  AccumulationRegister_ДетализацияПартийТоваровДляНДСиУСН
+  AccumulationRegister_ЗаказыКлиентов
+  AccumulationRegister_ЗаказыНаВнутреннееПотребление
+  AccumulationRegister_ЗаказыНаСборку
+  AccumulationRegister_ЗаказыПоставщикам
+  AccumulationRegister_ЗаявкиНаВозвратТоваровОтКлиентов
+  AccumulationRegister_ОбеспечениеЗаказов
+  AccumulationRegister_ОбеспечениеЗаказовРаботами
+  AccumulationRegister_ПартииТоваровОрганизаций
+  AccumulationRegister_ПартииТоваровПереданныеНаКомиссию
+  AccumulationRegister_РасчетыСКлиентами
+  AccumulationRegister_РасчетыСКлиентамиПоДокументам
+  AccumulationRegister_РезервыТоваровОрганизаций
+  AccumulationRegister_СебестоимостьТоваров
+  AccumulationRegister_ТоварыВЯчейках
+  AccumulationRegister_ТоварыКОтбору
+  AccumulationRegister_ТоварыКОтгрузке
+  AccumulationRegister_ТоварыКОформлениюЗаявленийОВвозе
+  AccumulationRegister_ТоварыКОформлениюИзлишковНедостач
+  AccumulationRegister_ТоварыКОформлениюОтчетовКомитенту
+  AccumulationRegister_ТоварыКОформлениюТаможенныхДеклараций
+  AccumulationRegister_ТоварыКПоступлению
+  AccumulationRegister_ТоварыОрганизацийКПередаче
+  AccumulationRegister_ТоварыПереданныеНаКомиссию
+  AccumulationRegister_УслугиКОформлениюОтчетовПринципалу
+  AccumulationRegister_ТоварыНаВиртуальныхСкладах
+  AccumulationRegister_ТоварыВиртуальногоСкладаВРезерве
+  InformationRegister_РегистрацииВНалоговомОргане
+  InformationRegister_ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных
+  InformationRegister_ИспользованиеДополнительныхОтчетовИОбработокСервисаВАвтономномРабочемМесте
+  InformationRegister_НастройкиАвторизацииВ1СДокументообороте
+  InformationRegister_НастройкиВариантовОтчетов
+  InformationRegister_НовыеДокументыВСервисеЭДО
+  InformationRegister_ОчередьИнсталляцииПоставляемыхДополнительныхОтчетовИОбработокВОбластиДанных
+  InformationRegister_ОчередьФормированияКорректировокИзлишковИНедостачПоТоварнымМестам
+  InformationRegister_ПредопределенныеВариантыОтчетовВерсийРасширений
+  InformationRegister_ШаблоныРегистрацииНовыхКарт
+  InformationRegister_СоответствиеЗначенийРеквизитовРаботаСНоменклатурой
+  InformationRegister_СоответствиеНоменклатурыБизнесСеть
+  InformationRegister_СоответствиеРеквизитовРаботаСНоменклатурой
+  Constant_ИспользоватьСкладыВТабличнойЧастиДокументовЗакупки
+  Constant_ИспользоватьПолнотекстовыйПоискПриПодбореТоваров
+  Constant_ИспользоватьНоменклатуруПродаваемуюСовместно
+  Constant_ИспользоватьМобильноеПриложение1СЗаказыКлиентов
+  Constant_ИспользоватьИмпортныеТовары
+  Constant_ИспользоватьТиповыеСоглашенияСКлиентами
+  Constant_НомерПоследнегоПринятогоСообщенияДокументооборота
+  Constant_ИспользоватьСертификатыНоменклатуры
+  Constant_ИспользоватьРасширенныеВозможностиЗаказаКлиента
+  Constant_ИспользоватьЗаказыПоставщикам
+  Constant_ФормироватьОтчетностьПоНДС
+  Constant_ИспользоватьВнутреннееСогласованиеЗаявокНаВозвратТоваровОтКлиентов
+  Constant_ИспользоватьПрочееОприходованиеТоваров
+  Constant_КоличествоПериодовРасчетаТоварныхОграничений
+  Constant_ИспользоватьПартнеровКакКонтрагентов
+  Constant_ИспользоватьПричиныОтменыЗаказовКлиентов
+  Constant_ИспользоватьЕжедневныеОтчеты1СДокументооборота
+  Constant_ПериодРасчетаТоварныхОграничений
+  Constant_ИспользоватьКоммерческиеПредложенияКлиентам
+  Constant_КоличествоПериодовABCКлассификацииНоменклатуры
+  Constant_НеДетализироватьЗаданияТорговымПредставителямПоНоменклатуре
+  Constant_РазрешитьОбособлениеТоваровСверхПотребности
+  Constant_ИспользоватьПеремещениеПоНесколькимЗаказам
+  Constant_ИспользоватьСтатусыСборокТоваров
+  Constant_УчитыватьПравилаВнутреннегоТовародвиженияПриРасчетеТоварныхОграничений
+  Constant_ЗапретитьОформлениеОперацийСИмпортнымиТоварамиБезНомеровГТД
+  Constant_ФиксироватьПретензииКлиентов
+  Constant_ИспользоватьОбобщенныйУчетНекачественныхТоваров
+  Constant_ИспользоватьХарактеристикиНоменклатуры
+  Constant_ИспользоватьУправлениеПеремещениемОбособленныхТоваров
+  Constant_ИспользоватьДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров
+  Constant_ИспользоватьПричиныОтменыЗаказовПоставщикам
+  Constant_КонтролироватьОстаткиТоваровОрганизаций
+  Constant_ИспользоватьАктыРасхожденийПослеОтгрузкиПоОтгрузкамТоваровСХранения
+  Constant_МаксимальноеКоличествоЭлементовВДеревеОтборовНоменклатуры
+  Constant_ИспользоватьНесколькоВидовНоменклатуры
+  Constant_КоличествоПериодовXYZКлассификацииНоменклатуры
+  Constant_ИспользоватьABCXYZКлассификациюНоменклатурыПоВаловойПрибыли
+  Constant_НеЗакрыватьЗаказыНаПеремещениеБезПолнойОтгрузки
+  Constant_НаименованиеКорневойПапкиФайлов1СДокументооборот
+  Constant_НеЗакрыватьЗаказыНаВнутреннееПотреблениеБезПолнойОтгрузки
+  Constant_ИспользоватьСтатусыЗаказовНаПеремещение
+  Constant_ДатаНачалаРегистрацииЗакупокПоЕГАИС
+  Constant_ДатаПереходаНаУчетПоИдентификаторамТоваровВС
+  Constant_ИспользоватьСделкиСКлиентами
+  Constant_КонтролироватьУникальностьНоменклатурыПоСочетаниюЗначенийРеквизитов
+  Constant_ИспользоватьУпаковкиНоменклатуры
+  Constant_ИспользоватьСтатусыЗаказовНаВнутреннееПотребление
+  Constant_ИспользоватьЗаказыКлиентов
+  Constant_ИдентификаторКорневойПапкиФайлов1СДокументооборот
+  Constant_ИспользоватьПострочнуюОтгрузкуВЗаказеКлиента
+  Constant_ДополнительнаяКолонкаПечатныхФормДокументов
+  Constant_МинимальнаяЗначимостьНоменклатурыПродаваемойСовместно
+  Constant_НаименованиеДляПечатиВидовНоменклатуры
+  Constant_НеЗакрыватьЗаказыПоставщикамБезПолнойОплаты
+  Constant_ИспользоватьЗаказыНаСборку
+  Constant_СайтСоздан
+  Constant_ИспользоватьАктыВыполненныхРаботПоНесколькимЗаказам
+  Constant_НеЗакрыватьЗаказыНаСборкуБезПолнойОтгрузки
+  Constant_ИспользоватьСтатусыЗаказовНаСборку
+  Constant_АктуализироватьВзаиморасчетыПриПроведенииДокументов
+  Constant_ИспользуетсяСборкаРазборкаИСерииНоменклатуры
+  Constant_ИспользоватьКачествоТоваров
+  Constant_ПараметрыВариантовОтчетов
+  Constant_ИспользоватьПередачиТоваровМеждуОрганизациями
+  Constant_МинимальныйПроцентСлучаевНоменклатурыПродаваемойСовместно
+  Constant_НомерЗаданияКРаспределениюРасчетовСКлиентами
+  Constant_КонтролироватьОстаткиНомеровГТДПриИмпортеПоСхемеТоварыВПути
+  Constant_ОрганизацияНаКоторуюЗарегистрированаПрограмма
+  Constant_ИспользоватьЗаявкиНаВозвратТоваровОтКлиентов
+  Constant_КонтролироватьВыдачуПодОтчетВРазрезеЦелей
+  Constant_ПредлагатьДополнитьДокументыМногооборотнойТарой
+  Constant_ИспользоватьОтчетДвиженияЗаказов
+  Constant_РазделятьТоварыПоИсточникамПроисхождения
+  Constant_АвтоПостановкаКлиентовНаМониторингСПАРК
+  Constant_АвтоПостановкаКлиентовНаМониторингСПАРКНастройка
+  Constant_АдресВебСервиса1СДокументооборот
+  Constant_АктуализироватьВзаиморасчетыПриФормированииОтчетов
+  Constant_АктуализироватьДанныеПриФормированииОтчетов
+  Constant_ВариантОбособленияТоваровВоВнутреннемПотреблении
+  Constant_ВариантОбособленияТоваровВПеремещении
+  Constant_ВариантОбособленияТоваровВСборке
+  Constant_ВариантПриемкиТоваров
+  Constant_ИспользоватьПроцессыИЗадачи1СДокументооборота
+  Constant_ВидКонтроляТоваровОрганизаций
+  Constant_ВыгружатьВнутренниеШтрихкодыШтучныхТоваров
+  Constant_ГеографическаяСхемаДляОтчетов
+  Constant_ДатаПоследнегоСтартаКлиентскогоСеанса
+  Constant_ДетализироватьЗаданияТорговымПредставителямПоНоменклатуре
+  Constant_ДетализироватьОбновлениеИБВЖурналеРегистрации
+  Constant_ДопустимоеОтклонениеОтгрузкиПриемкиМерныхТоваров
+  Constant_ЗапретитьПоступлениеТоваровБезНомеровГТД
+  Constant_ЗарегистрированыИзмененияДанных
+  Constant_ИнтеграцияС1СДокументооборотИмяПользователяДляОбмена
+  Constant_ИнтеграцияС1СДокументооборотПарольДляОбмена
+  Constant_ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса
+  Constant_НачальнаяСтраницаСайта
+  Constant_ИспользованиеКлассификаторовНоменклатуры
+  Constant_ИспользованиеСоглашенийСКлиентами
+  Constant_ИспользоватьABCXYZКлассификациюНоменклатурыПоВыручке
+  Constant_ИспользоватьАвтоматическоеЗакрытиеСтрокЗаказовМерныхТоваров
+  Constant_ИспользоватьАктыРасхожденийПослеПриемкиПоПриемкамТоваровНаХранение
+  Constant_ИспользоватьВнутреннееПотреблениеПоНесколькимЗаказам
+  Constant_ИспользоватьВнутреннееСогласованиеЗаказовКлиентов
+  Constant_ИспользоватьВнутреннееСогласованиеСоглашенийСКлиентами
+  Constant_ИспользоватьСервисРаботаСНоменклатурой
+  Constant_ИспользоватьГруппыАналитическогоУчетаНоменклатуры
+  Constant_ИспользоватьГруппыДоступаНоменклатуры
+  Constant_ИспользоватьДоговорыСКлиентами
+  Constant_ИспользоватьДополнительныеОтчетыИОбработки
+  Constant_ИспользоватьЕдиницыИзмеренияДляОтчетов
+  Constant_ИспользоватьЗаказыНаВнутреннееПотребление
+  Constant_ИспользоватьЗаказыНаПеремещение
+  Constant_ИспользоватьЗаказыПоставщикамИЗаявкиНаРасходованиеДС
+  Constant_ИспользоватьИмпортныеЗакупкиТоваровВПути
+  Constant_ИспользоватьИндивидуальныеСоглашенияСКлиентами
+  Constant_ИспользоватьИнтеграциюС1СДокументооборот
+  Constant_ИспользоватьСогласованиеЗаявокНаВозвратТоваровОтКлиентов
+  Constant_ИспользоватьНоменклатуруПоставщиков
+  Constant_ИспользоватьОбменССайтом
+  Constant_ИспользоватьОбособленноеОбеспечениеЗаказов
+  Constant_ИспользоватьОзнакомлениеСЭлектроннымиДокументами
+  Constant_ИспользоватьПартнеровИКонтрагентов
+  Constant_ИспользоватьПеремещениеТоваров
+  Constant_ИспользоватьОтложеннуюОтправкуЭлектронныхДокументов
+  Constant_ИспользоватьПоступлениеПоНесколькимЗаказам
+  Constant_ИспользоватьПочтовыйКлиент
+  Constant_ИспользоватьПроверкуКонтрагентов
+  Constant_ИспользоватьСвязанныеДокументы1СДокументооборота
+  Constant_ИспользоватьСегментыНоменклатуры
+  Constant_ИспользоватьСерииНоменклатуры
+  Constant_ИспользоватьСогласованиеЗаказовКлиентов
+  Constant_ИспользоватьСогласованиеЗаказовПоставщикам
+  Constant_ИспользоватьСогласованиеСоглашенийСКлиентами
+  Constant_ИспользоватьСогласованиеЦенНоменклатуры
+  Constant_ИспользоватьСогласованиеЧерез1СДокументооборот
+  Constant_ИспользоватьСоглашенияСКлиентами
+  Constant_ИспользоватьСписаниеПринятыхНаХранениеТоваров
+  Constant_ИспользоватьСтандартныйПоискПриПодбореТоваров
+  Constant_ИспользоватьСтатусыАвансовыхОтчетов
+  Constant_ИспользоватьСтатусыЗаказовПоставщикам
+  Constant_ИспользоватьСтатусыПеремещенийТоваров
+  Constant_ИспользоватьСчетаНаОплатуКлиентам
+  Constant_ИспользоватьТиповыеИИндивидуальныеСоглашенияСКлиентами
+  Constant_ИспользоватьТоварныеКатегории
+  Constant_ИспользоватьТоварыВПутиОтПоставщиков
+  Constant_ИспользоватьФайловоеХранилище1СДокументооборота
+  Constant_ИспользоватьФасовкуВесовогоТовара
+  Constant_ИспользоватьЭлектроннуюПочту1СДокументооборота
+  Constant_КоличествоПериодовДляАнализаНоменклатурыПродаваемойСовместно
+  Constant_КонтролироватьОстаткиНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПути
+  Constant_КонтролироватьОстаткиТоваровОрганизацийКОформлениюПоПоступлениям
+  Constant_КонтролироватьУникальностьРабочегоНаименованияНоменклатурыИХарактеристик
+  Constant_МаксимальныйРазмерФайлаДляПередачиВ1СДокументооборот
+  Constant_МинимальнаяДостоверностьНоменклатурыПродаваемойСовместно
+  Constant_НезависимоеИспользованиеДополнительныхОтчетовИОбработокВМоделиСервиса
+  Constant_НеЗакрыватьЗаказыКлиентовБезПолнойОплаты
+  Constant_НеЗакрыватьЗаказыКлиентовБезПолнойОтгрузки
+  Constant_НеЗакрыватьЗаказыПоставщикамБезПолногоПоступления
+  Constant_ОтветственныйВДокументах
+  Constant_ПеремещатьТоварыДругихОрганизаций
+  Constant_ПериодABCКлассификацииНоменклатуры
+  Constant_ПериодXYZКлассификацииНоменклатуры
+  Constant_ПериодичностьДляАнализаНоменклатурыПродаваемойСовместно
+  Constant_ПериодыРезервовТоваровОрганизацийАктуальны
+  Constant_ПодпериодXYZКлассификацииНоменклатуры
+  Constant_ПокупкаТоваровОблагаемыхНДСУПокупателя
+  Constant_ПорядокОформленияВыкупаПриСписанииТоваров
+  Constant_ПроверятьЗаполнениеНомеровГТДПриЗакупкеУПоставщикаПоСхемеТоварыВПути
+  Constant_РаспределениеДопРасходовПоВыбывшимТоварам
+  Constant_РегистрационныйНомерПрограммы
+  Constant_УчитыватьПравилаВнутреннегоТовародвиженияПриABCКлассификацииНоменклатуры
+  Constant_УчитыватьПравилаВнутреннегоТовародвиженияПриXYZКлассификацииНоменклатуры
+  Constant_УчитыватьСебестоимостьТоваровПоВидамЗапасов
+  Constant_ДатаПереходаНаУчетПоТоварамОрганизацийНаВиртуальныхСкладах
+  Constant_УчетПоИдентификаторамТоваровВС
+  Constant_ГруппаДоступаНоменклатурыИзСервиса

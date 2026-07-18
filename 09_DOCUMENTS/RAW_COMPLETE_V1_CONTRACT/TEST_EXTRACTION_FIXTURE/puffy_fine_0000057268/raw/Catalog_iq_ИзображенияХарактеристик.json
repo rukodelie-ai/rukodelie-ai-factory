@@ -1,0 +1,38 @@
+[
+  {
+    "Code": "000003145",
+    "DeletionMark": false,
+    "Description": "Puffy Fine (113 - Желт)",
+    "Ref_Key": "d3927124-1000-11ea-80cb-9633c5df92df",
+    "image_Key": "0c52d7ea-0022-11f1-a814-000c290ea457",
+    "Комментарий": "",
+    "Номенклатура_Key": "f5f42c43-0da6-11ea-80cb-9633c5df92df",
+    "Проверено": true,
+    "Характеристика_Key": "f5f42c48-0da6-11ea-80cb-9633c5df92df",
+    "ЦветоваяСхема_Key": "fc3cb015-6396-11ea-9983-000c299cb3e9"
+  },
+  {
+    "Code": "000003165",
+    "DeletionMark": false,
+    "Description": "Puffy Fine (90 - Глиняный)",
+    "Ref_Key": "d3927132-1000-11ea-80cb-9633c5df92df",
+    "image_Key": "54f3cd9c-b847-11ed-a7c8-000c290ea457",
+    "Комментарий": "",
+    "Номенклатура_Key": "f5f42c43-0da6-11ea-80cb-9633c5df92df",
+    "Проверено": true,
+    "Характеристика_Key": "f5f42c5d-0da6-11ea-80cb-9633c5df92df",
+    "ЦветоваяСхема_Key": "fc3cb29f-6396-11ea-9983-000c299cb3e9"
+  },
+  {
+    "Code": "000091794",
+    "DeletionMark": false,
+    "Description": "Puffy Fine (06 - Оранж)",
+    "Ref_Key": "e312a548-76d1-11ed-a7c6-000c290ea457",
+    "image_Key": "1f43c9b8-0021-11f1-a814-000c290ea457",
+    "Комментарий": "",
+    "Номенклатура_Key": "f5f42c43-0da6-11ea-80cb-9633c5df92df",
+    "Проверено": true,
+    "Характеристика_Key": "7397ddaf-761b-11ed-a7c6-000c290ea457",
+    "ЦветоваяСхема_Key": "fc3cb0ed-6396-11ea-9983-000c299cb3e9"
+  }
+]

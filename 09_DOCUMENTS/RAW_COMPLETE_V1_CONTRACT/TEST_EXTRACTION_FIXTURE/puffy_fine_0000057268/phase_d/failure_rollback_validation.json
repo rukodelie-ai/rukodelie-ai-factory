@@ -1,0 +1,13 @@
+{
+  "after_failure_overall_checksum": "ee6650b681bc81923075853db733946c3b2327948bac31baeba93d7e60fce4e8",
+  "baseline_overall_checksum": "ee6650b681bc81923075853db733946c3b2327948bac31baeba93d7e60fce4e8",
+  "baseline_unchanged_after_failure": true,
+  "expected_error_observed": true,
+  "http_status": 400,
+  "operation": "single atomic batch containing valid snapshot replacements, a controlled sentinel mutation, and one intentionally invalid sheetId",
+  "row_counts_unchanged": true,
+  "safe_error_type": "APIError",
+  "sheet_checksums_unchanged": true,
+  "status": "PASS",
+  "tested_at_utc": "2026-07-18T17:16:29Z"
+}

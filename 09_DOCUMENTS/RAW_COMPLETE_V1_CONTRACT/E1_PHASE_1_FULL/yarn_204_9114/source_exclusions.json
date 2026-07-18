@@ -1,0 +1,23 @@
+{
+  "Catalog_iq_Категории.IsFolder": {
+    "contract_field": "RAW_CLASSIFICATIONS.is_folder_raw",
+    "evidence": "OData HTTP 400 code 6: path segment IsFolder not found",
+    "handling": "nullable field retained as NULL; no value fabricated",
+    "status": "SOURCE_PROPERTY_UNAVAILABLE"
+  },
+  "current_prices": {
+    "variant_outside_scope": 25839
+  },
+  "current_stock": {
+    "period_after_cutoff_or_invalid": 10
+  },
+  "price_types_outside_approved_phase1_scope": {
+    "2fdb09f7-6cf6-11ea-9983-000c299cb3e9": "Мелко оптовая",
+    "b36c8f70-f519-11ef-a806-000c290ea457": "Цены NEW OZON (RUB)",
+    "c2f655eb-1b23-11ea-80cb-9633c5df92df": "Прайс-лист"
+  },
+  "products_without_web_category": [
+    "598adb24-960b-11e8-812c-94b03fa0b9e1"
+  ],
+  "variant_image_links": []
+}

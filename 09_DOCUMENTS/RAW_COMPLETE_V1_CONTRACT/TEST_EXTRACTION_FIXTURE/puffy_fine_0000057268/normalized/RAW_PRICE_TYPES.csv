@@ -1,0 +1,10 @@
+﻿price_type_id,name_raw,deletion_mark,source_system_id,source_entityset,source_record_id,extraction_run_id
+1ef61749-6cf6-11ea-9983-000c299cb3e9,Интернет-магазин,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,1ef61749-6cf6-11ea-9983-000c299cb3e9,phase_c_20260718T163012Z_Catalog_e716d3a244
+29266a21-6cf6-11ea-9983-000c299cb3e9,Приходная,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,29266a21-6cf6-11ea-9983-000c299cb3e9,phase_c_20260718T163012Z_Catalog_e716d3a244
+29266a22-6cf6-11ea-9983-000c299cb3e9,Оптовая,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,29266a22-6cf6-11ea-9983-000c299cb3e9,phase_c_20260718T163012Z_Catalog_e716d3a244
+2fdb09f6-6cf6-11ea-9983-000c299cb3e9,Розничная,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,2fdb09f6-6cf6-11ea-9983-000c299cb3e9,phase_c_20260718T163012Z_Catalog_e716d3a244
+eb3f20be-4ecf-11ed-a7c3-000c290ea457,Цена Kaspi,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,eb3f20be-4ecf-11ed-a7c3-000c290ea457,phase_c_20260718T163012Z_Catalog_e716d3a244
+eac7e919-52c5-11ed-a7c3-000c290ea457,Цена Kaspi ТОО,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,eac7e919-52c5-11ed-a7c3-000c290ea457,phase_c_20260718T163012Z_Catalog_e716d3a244
+a98a6dcb-3757-11ee-a7cf-000c290ea457,Halyk Market,False,1C_STANDARD_ODATA,Catalog_ВидыЦен,a98a6dcb-3757-11ee-a7cf-000c290ea457,phase_c_20260718T163012Z_Catalog_e716d3a244
+64f763eb-6f2b-11ee-a7cf-000c290ea457,Цены OZON (RUB),False,1C_STANDARD_ODATA,Catalog_ВидыЦен,64f763eb-6f2b-11ee-a7cf-000c290ea457,phase_c_20260718T163012Z_Catalog_e716d3a244
+8f188b8f-6f2b-11ee-a7cf-000c290ea457,Цены OZON до применения скидки (RUB),False,1C_STANDARD_ODATA,Catalog_ВидыЦен,8f188b8f-6f2b-11ee-a7cf-000c290ea457,phase_c_20260718T163012Z_Catalog_e716d3a244

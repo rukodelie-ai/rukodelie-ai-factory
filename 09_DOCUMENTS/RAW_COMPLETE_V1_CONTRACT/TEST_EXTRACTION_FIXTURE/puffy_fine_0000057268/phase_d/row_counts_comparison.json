@@ -1,0 +1,194 @@
+{
+  "RAW_ATTRIBUTE_DEFINITIONS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_ATTRIBUTE_VALUES": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_BARCODES": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_BINARY_STORAGE_METADATA": {
+    "after": 4,
+    "baseline": 4,
+    "fixture": 4,
+    "match": true
+  },
+  "RAW_CLASSIFICATIONS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_COLOR_PALETTES": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_COLOR_SCHEMES": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_CURRENT_PRICES": {
+    "after": 24,
+    "baseline": 24,
+    "fixture": 24,
+    "match": true
+  },
+  "RAW_CURRENT_STOCK": {
+    "after": 21,
+    "baseline": 21,
+    "fixture": 21,
+    "match": true
+  },
+  "RAW_DATA_DICTIONARY": {
+    "after": 466,
+    "baseline": 466,
+    "fixture": 466,
+    "match": true
+  },
+  "RAW_DESCRIPTIONS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_ENTITYSET_MAPPING": {
+    "after": 38,
+    "baseline": 38,
+    "fixture": 38,
+    "match": true
+  },
+  "RAW_EXTRACTION_ERRORS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_EXTRACTION_RUNS": {
+    "after": 15,
+    "baseline": 15,
+    "fixture": 15,
+    "match": true
+  },
+  "RAW_MANUFACTURERS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_MARKETPLACE_CONTENT": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_MARKETPLACE_IMAGES": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_MARKETPLACE_LISTINGS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_PACKAGE_SETS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_PRICE_TYPES": {
+    "after": 9,
+    "baseline": 9,
+    "fixture": 9,
+    "match": true
+  },
+  "RAW_PRODUCTS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_PRODUCT_CLASSIFICATIONS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_PRODUCT_FILES": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_PRODUCT_RELATIONS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_SCHEMA_VERSIONS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_SOURCE_SYSTEMS": {
+    "after": 1,
+    "baseline": 1,
+    "fixture": 1,
+    "match": true
+  },
+  "RAW_SUPPLIER_ITEMS": {
+    "after": 0,
+    "baseline": 0,
+    "fixture": 0,
+    "match": true
+  },
+  "RAW_UNIT_DEFINITIONS": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_VARIANTS": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_VARIANT_FILES": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_VARIANT_IMAGE_LINKS": {
+    "after": 3,
+    "baseline": 3,
+    "fixture": 3,
+    "match": true
+  },
+  "RAW_WAREHOUSES": {
+    "after": 7,
+    "baseline": 7,
+    "fixture": 7,
+    "match": true
+  }
+}

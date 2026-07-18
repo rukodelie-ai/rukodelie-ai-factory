@@ -1,0 +1,194 @@
+{
+  "RAW_ATTRIBUTE_DEFINITIONS": {
+    "after": "ed40483b18e1d5149eac909abd400de12d0ed6521672c90ccdf209ff27ff3bdf",
+    "baseline": "ed40483b18e1d5149eac909abd400de12d0ed6521672c90ccdf209ff27ff3bdf",
+    "fixture": "ed40483b18e1d5149eac909abd400de12d0ed6521672c90ccdf209ff27ff3bdf",
+    "match": true
+  },
+  "RAW_ATTRIBUTE_VALUES": {
+    "after": "c07f7144d3f66bcf98aac7956d48868b3ca2e62d515bf4edf347c42e81a19ddb",
+    "baseline": "c07f7144d3f66bcf98aac7956d48868b3ca2e62d515bf4edf347c42e81a19ddb",
+    "fixture": "c07f7144d3f66bcf98aac7956d48868b3ca2e62d515bf4edf347c42e81a19ddb",
+    "match": true
+  },
+  "RAW_BARCODES": {
+    "after": "f677a004be8c8c250aee532dbf72c1bc399662fcab1f9ebc312da07c86d1f893",
+    "baseline": "f677a004be8c8c250aee532dbf72c1bc399662fcab1f9ebc312da07c86d1f893",
+    "fixture": "f677a004be8c8c250aee532dbf72c1bc399662fcab1f9ebc312da07c86d1f893",
+    "match": true
+  },
+  "RAW_BINARY_STORAGE_METADATA": {
+    "after": "e5cd3587c62d685be4ee160ea91b2b4a397d6759887b9cbf7d6cb988fbed0cbc",
+    "baseline": "e5cd3587c62d685be4ee160ea91b2b4a397d6759887b9cbf7d6cb988fbed0cbc",
+    "fixture": "e5cd3587c62d685be4ee160ea91b2b4a397d6759887b9cbf7d6cb988fbed0cbc",
+    "match": true
+  },
+  "RAW_CLASSIFICATIONS": {
+    "after": "97191de52268f91ce89fda45992a0b3fceab33fb6dd147dbcfcd40a6c50f87a2",
+    "baseline": "97191de52268f91ce89fda45992a0b3fceab33fb6dd147dbcfcd40a6c50f87a2",
+    "fixture": "97191de52268f91ce89fda45992a0b3fceab33fb6dd147dbcfcd40a6c50f87a2",
+    "match": true
+  },
+  "RAW_COLOR_PALETTES": {
+    "after": "c247682c67dd4b176e1e164db6300ac641dfdb5ebc0ba939d5eb9b0ed45bddc8",
+    "baseline": "c247682c67dd4b176e1e164db6300ac641dfdb5ebc0ba939d5eb9b0ed45bddc8",
+    "fixture": "c247682c67dd4b176e1e164db6300ac641dfdb5ebc0ba939d5eb9b0ed45bddc8",
+    "match": true
+  },
+  "RAW_COLOR_SCHEMES": {
+    "after": "4c061deccc8f0b8193d3abc78ad8d3cbda9a92d4d0090fcf64ba7542fd895390",
+    "baseline": "4c061deccc8f0b8193d3abc78ad8d3cbda9a92d4d0090fcf64ba7542fd895390",
+    "fixture": "4c061deccc8f0b8193d3abc78ad8d3cbda9a92d4d0090fcf64ba7542fd895390",
+    "match": true
+  },
+  "RAW_CURRENT_PRICES": {
+    "after": "5a5fa7e7e408849b85fe5f6d3b0e04e3fe9a5cbec03d7372e24669129106981e",
+    "baseline": "5a5fa7e7e408849b85fe5f6d3b0e04e3fe9a5cbec03d7372e24669129106981e",
+    "fixture": "5a5fa7e7e408849b85fe5f6d3b0e04e3fe9a5cbec03d7372e24669129106981e",
+    "match": true
+  },
+  "RAW_CURRENT_STOCK": {
+    "after": "2bebe3552c3170a10864955b57d89ad566c242f8ba22a67e900e95c57a50b1c1",
+    "baseline": "2bebe3552c3170a10864955b57d89ad566c242f8ba22a67e900e95c57a50b1c1",
+    "fixture": "2bebe3552c3170a10864955b57d89ad566c242f8ba22a67e900e95c57a50b1c1",
+    "match": true
+  },
+  "RAW_DATA_DICTIONARY": {
+    "after": "d6f4819c392ac0ca5a16a658bcdbc5f1bd7e989858494fc5affbedc6ef1272cd",
+    "baseline": "d6f4819c392ac0ca5a16a658bcdbc5f1bd7e989858494fc5affbedc6ef1272cd",
+    "fixture": "d6f4819c392ac0ca5a16a658bcdbc5f1bd7e989858494fc5affbedc6ef1272cd",
+    "match": true
+  },
+  "RAW_DESCRIPTIONS": {
+    "after": "87c659c24052c3bdc4ca2b10fbfd840b92697d8354f4f6500abf7dc5f64d105c",
+    "baseline": "87c659c24052c3bdc4ca2b10fbfd840b92697d8354f4f6500abf7dc5f64d105c",
+    "fixture": "87c659c24052c3bdc4ca2b10fbfd840b92697d8354f4f6500abf7dc5f64d105c",
+    "match": true
+  },
+  "RAW_ENTITYSET_MAPPING": {
+    "after": "37a318e01f7fc4b56737fa39a9720a0d3bf2af035c32a4e8bab26f101e7237e9",
+    "baseline": "37a318e01f7fc4b56737fa39a9720a0d3bf2af035c32a4e8bab26f101e7237e9",
+    "fixture": "37a318e01f7fc4b56737fa39a9720a0d3bf2af035c32a4e8bab26f101e7237e9",
+    "match": true
+  },
+  "RAW_EXTRACTION_ERRORS": {
+    "after": "d790c4f69e086f3d54fe1316194eaff74a86beef0dce155932ea941baa7b01d1",
+    "baseline": "d790c4f69e086f3d54fe1316194eaff74a86beef0dce155932ea941baa7b01d1",
+    "fixture": "d790c4f69e086f3d54fe1316194eaff74a86beef0dce155932ea941baa7b01d1",
+    "match": true
+  },
+  "RAW_EXTRACTION_RUNS": {
+    "after": "3a76c0ec29230a57e116a0baa39585d554ceb22e082c845b498e52ac334220bc",
+    "baseline": "3a76c0ec29230a57e116a0baa39585d554ceb22e082c845b498e52ac334220bc",
+    "fixture": "3a76c0ec29230a57e116a0baa39585d554ceb22e082c845b498e52ac334220bc",
+    "match": true
+  },
+  "RAW_MANUFACTURERS": {
+    "after": "81ec632a9f797636a29b760f99ee44a7780ba6ac3f3b47c43b33b4a5fe9e2dc7",
+    "baseline": "81ec632a9f797636a29b760f99ee44a7780ba6ac3f3b47c43b33b4a5fe9e2dc7",
+    "fixture": "81ec632a9f797636a29b760f99ee44a7780ba6ac3f3b47c43b33b4a5fe9e2dc7",
+    "match": true
+  },
+  "RAW_MARKETPLACE_CONTENT": {
+    "after": "242aab4c065551268b791e3dc215bb2936ad775eaf47bea4215071ab9994383d",
+    "baseline": "242aab4c065551268b791e3dc215bb2936ad775eaf47bea4215071ab9994383d",
+    "fixture": "242aab4c065551268b791e3dc215bb2936ad775eaf47bea4215071ab9994383d",
+    "match": true
+  },
+  "RAW_MARKETPLACE_IMAGES": {
+    "after": "0f663f1b5be57cbc174a1b70082a9b5b683039837460e8284f6e8f74bb7f756c",
+    "baseline": "0f663f1b5be57cbc174a1b70082a9b5b683039837460e8284f6e8f74bb7f756c",
+    "fixture": "0f663f1b5be57cbc174a1b70082a9b5b683039837460e8284f6e8f74bb7f756c",
+    "match": true
+  },
+  "RAW_MARKETPLACE_LISTINGS": {
+    "after": "bbf609e2f39994f8c6145b19b5867e5404d893c1fc2fe2c7b7278a4c69d0aa19",
+    "baseline": "bbf609e2f39994f8c6145b19b5867e5404d893c1fc2fe2c7b7278a4c69d0aa19",
+    "fixture": "bbf609e2f39994f8c6145b19b5867e5404d893c1fc2fe2c7b7278a4c69d0aa19",
+    "match": true
+  },
+  "RAW_PACKAGE_SETS": {
+    "after": "0ad8133d4d616735adba3539f14d9bb27af5fff7416d4806351eb135e15f2c6c",
+    "baseline": "0ad8133d4d616735adba3539f14d9bb27af5fff7416d4806351eb135e15f2c6c",
+    "fixture": "0ad8133d4d616735adba3539f14d9bb27af5fff7416d4806351eb135e15f2c6c",
+    "match": true
+  },
+  "RAW_PRICE_TYPES": {
+    "after": "10f57f0b45f4532be0bfafbdd61e570c92a776f6d755e09ed481e1c8f1b56faf",
+    "baseline": "10f57f0b45f4532be0bfafbdd61e570c92a776f6d755e09ed481e1c8f1b56faf",
+    "fixture": "10f57f0b45f4532be0bfafbdd61e570c92a776f6d755e09ed481e1c8f1b56faf",
+    "match": true
+  },
+  "RAW_PRODUCTS": {
+    "after": "f13c27944c0c90e560517f7cb8cde83a920325a2eb613df31849cd9455e44f19",
+    "baseline": "f13c27944c0c90e560517f7cb8cde83a920325a2eb613df31849cd9455e44f19",
+    "fixture": "f13c27944c0c90e560517f7cb8cde83a920325a2eb613df31849cd9455e44f19",
+    "match": true
+  },
+  "RAW_PRODUCT_CLASSIFICATIONS": {
+    "after": "6eb87d82f355b255397b45c13405ca6010668cd5103003e61537f65e1de9e7f5",
+    "baseline": "6eb87d82f355b255397b45c13405ca6010668cd5103003e61537f65e1de9e7f5",
+    "fixture": "6eb87d82f355b255397b45c13405ca6010668cd5103003e61537f65e1de9e7f5",
+    "match": true
+  },
+  "RAW_PRODUCT_FILES": {
+    "after": "0301d5b03b22c2f981a369d7afdba7d5740623269dddf88f644f66e2e8726c3f",
+    "baseline": "0301d5b03b22c2f981a369d7afdba7d5740623269dddf88f644f66e2e8726c3f",
+    "fixture": "0301d5b03b22c2f981a369d7afdba7d5740623269dddf88f644f66e2e8726c3f",
+    "match": true
+  },
+  "RAW_PRODUCT_RELATIONS": {
+    "after": "fb60ae14fc20490d10a6df2c1dcc3fd64bfb654fcbb81df3818b602310151791",
+    "baseline": "fb60ae14fc20490d10a6df2c1dcc3fd64bfb654fcbb81df3818b602310151791",
+    "fixture": "fb60ae14fc20490d10a6df2c1dcc3fd64bfb654fcbb81df3818b602310151791",
+    "match": true
+  },
+  "RAW_SCHEMA_VERSIONS": {
+    "after": "0c2cd91f89b6bbcb3b43f52517f72c21b353c82738286656c4dd44957c7110ad",
+    "baseline": "0c2cd91f89b6bbcb3b43f52517f72c21b353c82738286656c4dd44957c7110ad",
+    "fixture": "0c2cd91f89b6bbcb3b43f52517f72c21b353c82738286656c4dd44957c7110ad",
+    "match": true
+  },
+  "RAW_SOURCE_SYSTEMS": {
+    "after": "3a4d451ae6fbb4836b33b40d351d4a04d1a269687abbdd6af2d770aab4167ce9",
+    "baseline": "3a4d451ae6fbb4836b33b40d351d4a04d1a269687abbdd6af2d770aab4167ce9",
+    "fixture": "3a4d451ae6fbb4836b33b40d351d4a04d1a269687abbdd6af2d770aab4167ce9",
+    "match": true
+  },
+  "RAW_SUPPLIER_ITEMS": {
+    "after": "dc0748c72f988ebce448c2cbf2286dc877065e51da2bce74fe9cdad9e0e5a593",
+    "baseline": "dc0748c72f988ebce448c2cbf2286dc877065e51da2bce74fe9cdad9e0e5a593",
+    "fixture": "dc0748c72f988ebce448c2cbf2286dc877065e51da2bce74fe9cdad9e0e5a593",
+    "match": true
+  },
+  "RAW_UNIT_DEFINITIONS": {
+    "after": "513e22c226f96538b5c8d0e240a35a7c9714450dd30b3883ab115b1e262e707b",
+    "baseline": "513e22c226f96538b5c8d0e240a35a7c9714450dd30b3883ab115b1e262e707b",
+    "fixture": "513e22c226f96538b5c8d0e240a35a7c9714450dd30b3883ab115b1e262e707b",
+    "match": true
+  },
+  "RAW_VARIANTS": {
+    "after": "dbd083bdc43fd3c0329c4ce9f1763e30b4b823eaabd4d1cd5338c4bef2018c70",
+    "baseline": "dbd083bdc43fd3c0329c4ce9f1763e30b4b823eaabd4d1cd5338c4bef2018c70",
+    "fixture": "dbd083bdc43fd3c0329c4ce9f1763e30b4b823eaabd4d1cd5338c4bef2018c70",
+    "match": true
+  },
+  "RAW_VARIANT_FILES": {
+    "after": "79bf8fda81b3f9f6e7dddef05c31da33b0876a45233964b7fc7c20e2d7d8704f",
+    "baseline": "79bf8fda81b3f9f6e7dddef05c31da33b0876a45233964b7fc7c20e2d7d8704f",
+    "fixture": "79bf8fda81b3f9f6e7dddef05c31da33b0876a45233964b7fc7c20e2d7d8704f",
+    "match": true
+  },
+  "RAW_VARIANT_IMAGE_LINKS": {
+    "after": "f9f22368c3262da39632efb47a0133020a6744907c7c714eafc50adb71888b35",
+    "baseline": "f9f22368c3262da39632efb47a0133020a6744907c7c714eafc50adb71888b35",
+    "fixture": "f9f22368c3262da39632efb47a0133020a6744907c7c714eafc50adb71888b35",
+    "match": true
+  },
+  "RAW_WAREHOUSES": {
+    "after": "e629828633603b3997c7f844f7926ee3b93a996e8434ab7af6fee61141919937",
+    "baseline": "e629828633603b3997c7f844f7926ee3b93a996e8434ab7af6fee61141919937",
+    "fixture": "e629828633603b3997c7f844f7926ee3b93a996e8434ab7af6fee61141919937",
+    "match": true
+  }
+}

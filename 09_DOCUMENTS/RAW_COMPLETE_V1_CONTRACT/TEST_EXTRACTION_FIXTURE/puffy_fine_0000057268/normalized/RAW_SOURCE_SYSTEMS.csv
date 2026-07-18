@@ -1,0 +1,2 @@
+﻿source_system_id,source_system_name,source_system_type,access_mode,endpoint_reference,credentials_reference,active,notes
+1C_STANDARD_ODATA,1C Standard OData,ODATA,READ_ONLY,ODATA_BASE_URL from local secrets,ODATA_USERNAME/ODATA_PASSWORD from local secrets,True,No credentials or protected URL persisted

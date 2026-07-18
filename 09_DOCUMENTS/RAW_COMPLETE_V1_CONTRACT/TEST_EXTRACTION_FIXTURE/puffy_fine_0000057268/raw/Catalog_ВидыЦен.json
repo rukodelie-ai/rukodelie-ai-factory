@@ -1,0 +1,47 @@
+[
+  {
+    "DeletionMark": false,
+    "Description": "Интернет-магазин",
+    "Ref_Key": "1ef61749-6cf6-11ea-9983-000c299cb3e9"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Приходная",
+    "Ref_Key": "29266a21-6cf6-11ea-9983-000c299cb3e9"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Оптовая",
+    "Ref_Key": "29266a22-6cf6-11ea-9983-000c299cb3e9"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Розничная",
+    "Ref_Key": "2fdb09f6-6cf6-11ea-9983-000c299cb3e9"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Цена Kaspi",
+    "Ref_Key": "eb3f20be-4ecf-11ed-a7c3-000c290ea457"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Цена Kaspi ТОО",
+    "Ref_Key": "eac7e919-52c5-11ed-a7c3-000c290ea457"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Halyk Market",
+    "Ref_Key": "a98a6dcb-3757-11ee-a7cf-000c290ea457"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Цены OZON (RUB)",
+    "Ref_Key": "64f763eb-6f2b-11ee-a7cf-000c290ea457"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Цены OZON до применения скидки (RUB)",
+    "Ref_Key": "8f188b8f-6f2b-11ee-a7cf-000c290ea457"
+  }
+]

@@ -1,0 +1,1262 @@
+[
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "product_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "code_1c",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "name_raw",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "deletion_mark",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCTS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "variant_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "owner_raw",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "owner_type_raw",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "description_raw",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "deletion_mark",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANTS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "classification_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "classification_system",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "source_category_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_CLASSIFICATIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "product_classification_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "product_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "source_category_id_raw",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "classification_system",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "manufacturer_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "name_raw",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "deletion_mark",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MANUFACTURERS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "unit_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "name_raw",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "deletion_mark",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_UNIT_DEFINITIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "package_set_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "name_raw",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "deletion_mark",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PACKAGE_SETS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "warehouse_id",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "name_raw",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "source_system_id",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "source_entityset",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "source_record_id",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_WAREHOUSES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 7,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "price_type_id",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "name_raw",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "source_system_id",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "source_entityset",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "source_record_id",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRICE_TYPES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 9,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "barcode_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "barcode_raw",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "product_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BARCODES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "supplier_item_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "product_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "deletion_mark",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_SUPPLIER_ITEMS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "variant_image_link_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "product_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "variant_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "deletion_mark",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_IMAGE_LINKS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "color_scheme_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "name_raw",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "deletion_mark",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_SCHEMES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_PALETTES",
+    "field": "palette_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_PALETTES",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_PALETTES",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_PALETTES",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_COLOR_PALETTES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "file_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "owner_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "owner_type",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "deletion_mark",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "source_system_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "source_entityset",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "source_record_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_FILES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 1,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "file_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "owner_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "owner_type",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "deletion_mark",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "source_system_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "source_entityset",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "source_record_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_VARIANT_FILES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 3,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "binary_storage_id",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "file_id",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "file_type_raw",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "payload_present",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "retrieval_method",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "source_system_id",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "source_entityset",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "source_record_id",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_BINARY_STORAGE_METADATA",
+    "field": "extraction_run_id",
+    "rows_in_scope": 4,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "description_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "owner_type",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "owner_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "description_type",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "content_format",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "content_length",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "content_sha256",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_DESCRIPTIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "attribute_definition_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "name_raw",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "deletion_mark",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "attribute_value_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "owner_type",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "owner_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "attribute_definition_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_ATTRIBUTE_VALUES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "listing_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "platform",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "source_listing_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "product_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_LISTINGS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "marketplace_content_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "source_listing_id_raw",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "content_format",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_CONTENT",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "marketplace_image_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "source_listing_id_raw",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "line_number_raw",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_MARKETPLACE_IMAGES",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "relation_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "relation_type",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "source_product_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "target_product_source_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "source_system_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "source_entityset",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "source_record_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  },
+  {
+    "sheet": "RAW_PRODUCT_RELATIONS",
+    "field": "extraction_run_id",
+    "rows_in_scope": 0,
+    "missing_rows": [],
+    "status": "PASS"
+  }
+]

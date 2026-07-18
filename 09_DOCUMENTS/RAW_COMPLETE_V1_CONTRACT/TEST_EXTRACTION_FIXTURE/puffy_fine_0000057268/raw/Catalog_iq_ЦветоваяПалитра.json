@@ -1,0 +1,32 @@
+[
+  {
+    "Blue": 97,
+    "DeletionMark": false,
+    "Description": "Оранжевый",
+    "Green": 161,
+    "Hex": "#FFA161",
+    "Red": 255,
+    "Ref_Key": "d9f4b02d-846c-11ea-9994-000c299cb3e9",
+    "Сортировка": "4"
+  },
+  {
+    "Blue": 0,
+    "DeletionMark": false,
+    "Description": "Желтый",
+    "Green": 255,
+    "Hex": "#FFFF00",
+    "Red": 255,
+    "Ref_Key": "eed3af95-846c-11ea-9994-000c299cb3e9",
+    "Сортировка": "5"
+  },
+  {
+    "Blue": 0,
+    "DeletionMark": false,
+    "Description": "Коричневый",
+    "Green": 75,
+    "Hex": "#964B00",
+    "Red": 150,
+    "Ref_Key": "bbd3bd7f-8701-11ea-9999-000c299cb3e9",
+    "Сортировка": "14"
+  }
+]

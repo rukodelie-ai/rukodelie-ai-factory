@@ -1,0 +1,37 @@
+{
+  "after_overall_checksum": "ee6650b681bc81923075853db733946c3b2327948bac31baeba93d7e60fce4e8",
+  "after_total_rows": 610,
+  "atomic_replacement_status": "PASS",
+  "baseline_overall_checksum": "ee6650b681bc81923075853db733946c3b2327948bac31baeba93d7e60fce4e8",
+  "baseline_total_rows": 610,
+  "dry_run": {
+    "failed": 0,
+    "passed": 171,
+    "status": "PASS",
+    "validation_count": 171
+  },
+  "failure_rollback_status": "PASS",
+  "fixture": "/Users/sergey/Library/Mobile Documents/com~apple~CloudDocs/RUKODELIE_AI_FACTORY/09_DOCUMENTS/RAW_COMPLETE_V1_CONTRACT/TEST_EXTRACTION_FIXTURE/puffy_fine_0000057268",
+  "new_rows_created": 0,
+  "pass_conditions": {
+    "atomic_replacement_pass": true,
+    "baseline_matches_fixture": true,
+    "canonical_checksums_match": true,
+    "dry_run_171_of_171": true,
+    "failure_rollback_pass": true,
+    "fk_unchanged_and_resolved": true,
+    "frozen_fixture_unchanged": true,
+    "guid_unchanged_and_valid": true,
+    "headers_and_order_unchanged": true,
+    "leading_zero_06_preserved": true,
+    "new_rows_created_zero": true,
+    "null_profile_unchanged": true,
+    "pk_unchanged_and_unique": true,
+    "read_back_validation_pass": true,
+    "row_counts_match": true
+  },
+  "read_back_validation": "PASS",
+  "same_cutoff_at_utc": "2026-07-18T16:30:12Z",
+  "status": "PASS",
+  "validated_at_utc": "2026-07-18T17:16:31Z"
+}

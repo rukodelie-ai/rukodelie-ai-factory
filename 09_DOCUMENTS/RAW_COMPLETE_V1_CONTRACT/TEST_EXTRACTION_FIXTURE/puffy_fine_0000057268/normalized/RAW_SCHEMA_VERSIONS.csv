@@ -1,0 +1,2 @@
+﻿schema_version_id,version_label,contract_status,created_at_utc,approved_at_utc,approved_by,dictionary_checksum_sha256,mapping_checksum_sha256,notes
+RAW_COMPLETE_V1,RAW COMPLETE v1,APPROVED,2026-07-18T16:30:12Z,2026-07-18T16:30:12Z,PROJECT_OWNER,1e17b83204b94b94d038ff38764ce2a9c1aab466361f20116ecfa8d2c2ba0985,67a0d9c89833b72231f68c0940f6fac47b16bdf2f0e74afd2375915f3938edb9,Phase C controlled fixture

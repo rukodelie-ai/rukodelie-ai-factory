@@ -1,0 +1,44 @@
+[
+  {
+    "DeletionMark": false,
+    "Description": "Резерв",
+    "Ref_Key": "f63e019c-23d8-11eb-80f1-e1bec40f62a1",
+    "ТипСклада": "ОптовыйСклад"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Склад Wolt",
+    "Ref_Key": "18f8c127-2f9a-11ed-a7c3-000c290ea457",
+    "ТипСклада": "ОптовыйСклад"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Склад OZON",
+    "Ref_Key": "c8b841c4-718e-11ee-a7cf-000c290ea457",
+    "ТипСклада": "ОптовыйСклад"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Офис",
+    "Ref_Key": "92ba8f16-b6c6-11e2-b03e-001999e10e06",
+    "ТипСклада": "ОптовыйСклад"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Основной склад",
+    "Ref_Key": "f166b0aa-2f3e-11e2-b725-001999e10e06",
+    "ТипСклада": "ОптовыйСклад"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Магазин",
+    "Ref_Key": "a0cf265d-2f46-11e2-b725-001999e10e06",
+    "ТипСклада": "РозничныйМагазин"
+  },
+  {
+    "DeletionMark": false,
+    "Description": "Интернет магазин",
+    "Ref_Key": "b74a8760-c271-11ea-be7c-000c2922da20",
+    "ТипСклада": "ОптовыйСклад"
+  }
+]

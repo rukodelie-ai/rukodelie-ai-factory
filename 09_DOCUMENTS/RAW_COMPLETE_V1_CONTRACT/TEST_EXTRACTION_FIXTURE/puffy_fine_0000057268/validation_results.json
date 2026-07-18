@@ -1,0 +1,1379 @@
+{
+  "status": "PASS",
+  "validation_count": 171,
+  "passed": 171,
+  "failed": 0,
+  "applicable": 166,
+  "not_applicable": 5,
+  "type_errors": [],
+  "results": [
+    {
+      "validation_id": "RAW_SOURCE_SYSTEMS-PK",
+      "target_sheet": "RAW_SOURCE_SYSTEMS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=source_system_id"
+    },
+    {
+      "validation_id": "RAW_SOURCE_SYSTEMS-REQ",
+      "target_sheet": "RAW_SOURCE_SYSTEMS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_SOURCE_SYSTEMS-IDEMP",
+      "target_sheet": "RAW_SOURCE_SYSTEMS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_SCHEMA_VERSIONS-PK",
+      "target_sheet": "RAW_SCHEMA_VERSIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=schema_version_id"
+    },
+    {
+      "validation_id": "RAW_SCHEMA_VERSIONS-REQ",
+      "target_sheet": "RAW_SCHEMA_VERSIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_SCHEMA_VERSIONS-IDEMP",
+      "target_sheet": "RAW_SCHEMA_VERSIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_RUNS-PK",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "15 scoped rows; PK=run_id"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_RUNS-REQ",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_RUNS-IDEMP",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_ERRORS-PK",
+      "target_sheet": "RAW_EXTRACTION_ERRORS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=error_id"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_ERRORS-REQ",
+      "target_sheet": "RAW_EXTRACTION_ERRORS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_EXTRACTION_ERRORS-IDEMP",
+      "target_sheet": "RAW_EXTRACTION_ERRORS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_DATA_DICTIONARY-PK",
+      "target_sheet": "RAW_DATA_DICTIONARY",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "466 scoped rows; PK=sheet_name,field_name"
+    },
+    {
+      "validation_id": "RAW_DATA_DICTIONARY-REQ",
+      "target_sheet": "RAW_DATA_DICTIONARY",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_DATA_DICTIONARY-IDEMP",
+      "target_sheet": "RAW_DATA_DICTIONARY",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_ENTITYSET_MAPPING-PK",
+      "target_sheet": "RAW_ENTITYSET_MAPPING",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "38 scoped rows; PK=target_sheet,source_entityset,source_role"
+    },
+    {
+      "validation_id": "RAW_ENTITYSET_MAPPING-REQ",
+      "target_sheet": "RAW_ENTITYSET_MAPPING",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_ENTITYSET_MAPPING-IDEMP",
+      "target_sheet": "RAW_ENTITYSET_MAPPING",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRODUCTS-PK",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=product_id"
+    },
+    {
+      "validation_id": "RAW_PRODUCTS-REQ",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PRODUCTS-IDEMP",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRODUCTS-PROV",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCTS-GUID",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_VARIANTS-PK",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=variant_id"
+    },
+    {
+      "validation_id": "RAW_VARIANTS-REQ",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_VARIANTS-IDEMP",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_VARIANTS-PROV",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_VARIANTS-GUID",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_CLASSIFICATIONS-PK",
+      "target_sheet": "RAW_CLASSIFICATIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=classification_id"
+    },
+    {
+      "validation_id": "RAW_CLASSIFICATIONS-REQ",
+      "target_sheet": "RAW_CLASSIFICATIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_CLASSIFICATIONS-IDEMP",
+      "target_sheet": "RAW_CLASSIFICATIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_CLASSIFICATIONS-PROV",
+      "target_sheet": "RAW_CLASSIFICATIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_CLASSIFICATIONS-PK",
+      "target_sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=product_classification_id"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_CLASSIFICATIONS-REQ",
+      "target_sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_CLASSIFICATIONS-IDEMP",
+      "target_sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_CLASSIFICATIONS-PROV",
+      "target_sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_CLASSIFICATIONS-GUID",
+      "target_sheet": "RAW_PRODUCT_CLASSIFICATIONS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_MANUFACTURERS-PK",
+      "target_sheet": "RAW_MANUFACTURERS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=manufacturer_id"
+    },
+    {
+      "validation_id": "RAW_MANUFACTURERS-REQ",
+      "target_sheet": "RAW_MANUFACTURERS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_MANUFACTURERS-IDEMP",
+      "target_sheet": "RAW_MANUFACTURERS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_MANUFACTURERS-PROV",
+      "target_sheet": "RAW_MANUFACTURERS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_MANUFACTURERS-GUID",
+      "target_sheet": "RAW_MANUFACTURERS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_UNIT_DEFINITIONS-PK",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=unit_id"
+    },
+    {
+      "validation_id": "RAW_UNIT_DEFINITIONS-REQ",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_UNIT_DEFINITIONS-IDEMP",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_UNIT_DEFINITIONS-PROV",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_UNIT_DEFINITIONS-GUID",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_PACKAGE_SETS-PK",
+      "target_sheet": "RAW_PACKAGE_SETS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=package_set_id"
+    },
+    {
+      "validation_id": "RAW_PACKAGE_SETS-REQ",
+      "target_sheet": "RAW_PACKAGE_SETS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PACKAGE_SETS-IDEMP",
+      "target_sheet": "RAW_PACKAGE_SETS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PACKAGE_SETS-PROV",
+      "target_sheet": "RAW_PACKAGE_SETS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PACKAGE_SETS-GUID",
+      "target_sheet": "RAW_PACKAGE_SETS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_WAREHOUSES-PK",
+      "target_sheet": "RAW_WAREHOUSES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "7 scoped rows; PK=warehouse_id"
+    },
+    {
+      "validation_id": "RAW_WAREHOUSES-REQ",
+      "target_sheet": "RAW_WAREHOUSES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_WAREHOUSES-IDEMP",
+      "target_sheet": "RAW_WAREHOUSES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_WAREHOUSES-PROV",
+      "target_sheet": "RAW_WAREHOUSES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_WAREHOUSES-GUID",
+      "target_sheet": "RAW_WAREHOUSES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_PRICE_TYPES-PK",
+      "target_sheet": "RAW_PRICE_TYPES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "9 scoped rows; PK=price_type_id"
+    },
+    {
+      "validation_id": "RAW_PRICE_TYPES-REQ",
+      "target_sheet": "RAW_PRICE_TYPES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PRICE_TYPES-IDEMP",
+      "target_sheet": "RAW_PRICE_TYPES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRICE_TYPES-PROV",
+      "target_sheet": "RAW_PRICE_TYPES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRICE_TYPES-GUID",
+      "target_sheet": "RAW_PRICE_TYPES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_CURRENT_PRICES-PK",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "24 scoped rows; PK=current_price_id"
+    },
+    {
+      "validation_id": "RAW_CURRENT_PRICES-REQ",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_CURRENT_PRICES-IDEMP",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_CURRENT_PRICES-PROV",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_CURRENT_PRICES-GUID",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_CURRENT_STOCK-PK",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "21 scoped rows; PK=current_stock_id"
+    },
+    {
+      "validation_id": "RAW_CURRENT_STOCK-REQ",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_CURRENT_STOCK-IDEMP",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_CURRENT_STOCK-LINEAGE",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "LINEAGE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "covered by generic schema/type/PK/FK gates"
+    },
+    {
+      "validation_id": "RAW_CURRENT_STOCK-GUID",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_BARCODES-PK",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=barcode_id"
+    },
+    {
+      "validation_id": "RAW_BARCODES-REQ",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_BARCODES-IDEMP",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_BARCODES-PROV",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_BARCODES-GUID",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_SUPPLIER_ITEMS-PK",
+      "target_sheet": "RAW_SUPPLIER_ITEMS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=supplier_item_id"
+    },
+    {
+      "validation_id": "RAW_SUPPLIER_ITEMS-REQ",
+      "target_sheet": "RAW_SUPPLIER_ITEMS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_SUPPLIER_ITEMS-IDEMP",
+      "target_sheet": "RAW_SUPPLIER_ITEMS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_SUPPLIER_ITEMS-PROV",
+      "target_sheet": "RAW_SUPPLIER_ITEMS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_SUPPLIER_ITEMS-GUID",
+      "target_sheet": "RAW_SUPPLIER_ITEMS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_VARIANT_IMAGE_LINKS-PK",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=variant_image_link_id"
+    },
+    {
+      "validation_id": "RAW_VARIANT_IMAGE_LINKS-REQ",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_VARIANT_IMAGE_LINKS-IDEMP",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_VARIANT_IMAGE_LINKS-PROV",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_VARIANT_IMAGE_LINKS-GUID",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_COLOR_SCHEMES-PK",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=color_scheme_id"
+    },
+    {
+      "validation_id": "RAW_COLOR_SCHEMES-REQ",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_COLOR_SCHEMES-IDEMP",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_COLOR_SCHEMES-PROV",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_COLOR_SCHEMES-GUID",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_COLOR_PALETTES-PK",
+      "target_sheet": "RAW_COLOR_PALETTES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=palette_id"
+    },
+    {
+      "validation_id": "RAW_COLOR_PALETTES-REQ",
+      "target_sheet": "RAW_COLOR_PALETTES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_COLOR_PALETTES-IDEMP",
+      "target_sheet": "RAW_COLOR_PALETTES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_COLOR_PALETTES-PROV",
+      "target_sheet": "RAW_COLOR_PALETTES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_COLOR_PALETTES-GUID",
+      "target_sheet": "RAW_COLOR_PALETTES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_FILES-PK",
+      "target_sheet": "RAW_PRODUCT_FILES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "1 scoped rows; PK=file_id"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_FILES-REQ",
+      "target_sheet": "RAW_PRODUCT_FILES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_FILES-IDEMP",
+      "target_sheet": "RAW_PRODUCT_FILES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_FILES-PROV",
+      "target_sheet": "RAW_PRODUCT_FILES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_FILES-GUID",
+      "target_sheet": "RAW_PRODUCT_FILES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_VARIANT_FILES-PK",
+      "target_sheet": "RAW_VARIANT_FILES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "3 scoped rows; PK=file_id"
+    },
+    {
+      "validation_id": "RAW_VARIANT_FILES-REQ",
+      "target_sheet": "RAW_VARIANT_FILES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_VARIANT_FILES-IDEMP",
+      "target_sheet": "RAW_VARIANT_FILES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_VARIANT_FILES-PROV",
+      "target_sheet": "RAW_VARIANT_FILES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_VARIANT_FILES-GUID",
+      "target_sheet": "RAW_VARIANT_FILES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_BINARY_STORAGE_METADATA-PK",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "4 scoped rows; PK=binary_storage_id"
+    },
+    {
+      "validation_id": "RAW_BINARY_STORAGE_METADATA-REQ",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_BINARY_STORAGE_METADATA-IDEMP",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_BINARY_STORAGE_METADATA-PROV",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_DESCRIPTIONS-PK",
+      "target_sheet": "RAW_DESCRIPTIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=description_id"
+    },
+    {
+      "validation_id": "RAW_DESCRIPTIONS-REQ",
+      "target_sheet": "RAW_DESCRIPTIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_DESCRIPTIONS-IDEMP",
+      "target_sheet": "RAW_DESCRIPTIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_DESCRIPTIONS-PROV",
+      "target_sheet": "RAW_DESCRIPTIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_DEFINITIONS-PK",
+      "target_sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=attribute_definition_id"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_DEFINITIONS-REQ",
+      "target_sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_DEFINITIONS-IDEMP",
+      "target_sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_DEFINITIONS-PROV",
+      "target_sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_DEFINITIONS-GUID",
+      "target_sheet": "RAW_ATTRIBUTE_DEFINITIONS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_VALUES-PK",
+      "target_sheet": "RAW_ATTRIBUTE_VALUES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=attribute_value_id"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_VALUES-REQ",
+      "target_sheet": "RAW_ATTRIBUTE_VALUES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_VALUES-IDEMP",
+      "target_sheet": "RAW_ATTRIBUTE_VALUES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_VALUES-PROV",
+      "target_sheet": "RAW_ATTRIBUTE_VALUES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_ATTRIBUTE_VALUES-GUID",
+      "target_sheet": "RAW_ATTRIBUTE_VALUES",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_LISTINGS-PK",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=listing_id"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_LISTINGS-REQ",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_LISTINGS-IDEMP",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_LISTINGS-PROV",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_LISTINGS-GUID",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_CONTENT-PK",
+      "target_sheet": "RAW_MARKETPLACE_CONTENT",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=marketplace_content_id"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_CONTENT-REQ",
+      "target_sheet": "RAW_MARKETPLACE_CONTENT",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_CONTENT-IDEMP",
+      "target_sheet": "RAW_MARKETPLACE_CONTENT",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_CONTENT-PROV",
+      "target_sheet": "RAW_MARKETPLACE_CONTENT",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_CONTENT-GUID",
+      "target_sheet": "RAW_MARKETPLACE_CONTENT",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_IMAGES-PK",
+      "target_sheet": "RAW_MARKETPLACE_IMAGES",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=marketplace_image_id"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_IMAGES-REQ",
+      "target_sheet": "RAW_MARKETPLACE_IMAGES",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_IMAGES-IDEMP",
+      "target_sheet": "RAW_MARKETPLACE_IMAGES",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_MARKETPLACE_IMAGES-PROV",
+      "target_sheet": "RAW_MARKETPLACE_IMAGES",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_RELATIONS-PK",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "PK_UNIQUENESS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "0 scoped rows; PK=relation_id"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_RELATIONS-REQ",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "REQUIRED_KEYS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "missing=[]"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_RELATIONS-IDEMP",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "IDEMPOTENCY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "canonical checksum stable"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_RELATIONS-PROV",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "PROVENANCE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "provenance gaps=0"
+    },
+    {
+      "validation_id": "RAW_PRODUCT_RELATIONS-GUID",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "GUID_FORMAT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "invalid GUIDs=0"
+    },
+    {
+      "validation_id": "CTRL-PRODUCT-COUNT",
+      "target_sheet": "RAW_PRODUCTS",
+      "check_type": "CONTROL_COUNT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "owner-authorized Phase C scoped count=1"
+    },
+    {
+      "validation_id": "CTRL-VARIANT-COUNT",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "CONTROL_COUNT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "owner-authorized Phase C scoped count=3"
+    },
+    {
+      "validation_id": "CTRL-IMAGE-LINKS",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "CONTROL_COUNT",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "owner-authorized Phase C scoped count=3"
+    },
+    {
+      "validation_id": "CTRL-COLOR-NAME",
+      "target_sheet": "RAW_COLOR_SCHEMES",
+      "check_type": "SOURCE_PRESERVATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "covered by generic schema/type/PK/FK gates"
+    },
+    {
+      "validation_id": "CTRL-NO-SUBSTITUTION",
+      "target_sheet": "RAW_VARIANT_IMAGE_LINKS",
+      "check_type": "RELATION_INTEGRITY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "exact link->file owner chain"
+    },
+    {
+      "validation_id": "CTRL-NO-BASE64",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "SECURITY",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "payload not persisted; metadata lengths only"
+    },
+    {
+      "validation_id": "CTRL-HTML",
+      "target_sheet": "RAW_DESCRIPTIONS",
+      "check_type": "SOURCE_PRESERVATION",
+      "applicable": false,
+      "status": "PASS",
+      "detail": "not applicable to owner-authorized minimal fixture"
+    },
+    {
+      "validation_id": "CTRL-STOCK-SIGN",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "AGGREGATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "versioned Receipt/Expense sign rule"
+    },
+    {
+      "validation_id": "CTRL-STOCK-TOTAL",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "RECONCILIATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "scoped warehouse matrix with explicit zeros"
+    },
+    {
+      "validation_id": "CTRL-PRICE-LATEST",
+      "target_sheet": "RAW_CURRENT_PRICES",
+      "check_type": "AGGREGATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "later eligible rows=0"
+    },
+    {
+      "validation_id": "CTRL-LEADING-ZERO",
+      "target_sheet": "RAW_BARCODES",
+      "check_type": "TEXT_PRESERVATION",
+      "applicable": false,
+      "status": "PASS",
+      "detail": "not applicable to owner-authorized minimal fixture"
+    },
+    {
+      "validation_id": "CTRL-COLOR-RAW",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "SOURCE_PRESERVATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "raw variant descriptions retained"
+    },
+    {
+      "validation_id": "CTRL-URL-SECRET",
+      "target_sheet": "RAW_MARKETPLACE_IMAGES",
+      "check_type": "SECURITY",
+      "applicable": false,
+      "status": "PASS",
+      "detail": "not applicable to owner-authorized minimal fixture"
+    },
+    {
+      "validation_id": "CTRL-COUNTS",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "CONTROL_ACCOUNTING",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "run accounting reconciled"
+    },
+    {
+      "validation_id": "CTRL-CHECKSUM",
+      "target_sheet": "RAW_SCHEMA_VERSIONS",
+      "check_type": "CHECKSUM",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "approved contract checksums"
+    },
+    {
+      "validation_id": "CTRL-FK-COVERAGE",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "FK_COVERAGE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "unresolved FK=[]"
+    },
+    {
+      "validation_id": "CTRL-ORPHAN-RECORDS",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "ORPHAN_RECORDS",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "unresolved FK=[]"
+    },
+    {
+      "validation_id": "CTRL-SOURCE-DUPLICATES",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "SOURCE_DUPLICATES",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "unexpected source duplicates=[]"
+    },
+    {
+      "validation_id": "CTRL-SCHEMA-NO-UNKNOWN-FIELDS",
+      "target_sheet": "RAW_DATA_DICTIONARY",
+      "check_type": "SCHEMA_COVERAGE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "32 sheets / 466 fields"
+    },
+    {
+      "validation_id": "CTRL-PHOTO-OPTIONAL-COVERAGE",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "OPTIONAL_RELATION_COVERAGE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "selected variants with exact photo=3"
+    },
+    {
+      "validation_id": "CTRL-STOCK-ZEROS",
+      "target_sheet": "RAW_CURRENT_STOCK",
+      "check_type": "ZERO_PRESERVATION",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "scoped rows=21, explicit_zero=16"
+    },
+    {
+      "validation_id": "CTRL-MARKETPLACE-LISTING-KEY",
+      "target_sheet": "RAW_MARKETPLACE_LISTINGS",
+      "check_type": "QUALIFIED_KEY",
+      "applicable": false,
+      "status": "PASS",
+      "detail": "not applicable to owner-authorized minimal fixture"
+    },
+    {
+      "validation_id": "CTRL-OWNER-TYPE",
+      "target_sheet": "RAW_VARIANTS",
+      "check_type": "POLYMORPHIC_TYPE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "typed Owner parsed exactly"
+    },
+    {
+      "validation_id": "CTRL-BINARY-POLYMORPHIC",
+      "target_sheet": "RAW_BINARY_STORAGE_METADATA",
+      "check_type": "POLYMORPHIC_TYPE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "composite file/type keys match"
+    },
+    {
+      "validation_id": "CTRL-PACKAGE-REFERENCE-TYPE",
+      "target_sheet": "RAW_UNIT_DEFINITIONS",
+      "check_type": "REFERENCE_TYPE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "covered by generic schema/type/PK/FK gates"
+    },
+    {
+      "validation_id": "CTRL-RELATION-TARGET-IDENTITY",
+      "target_sheet": "RAW_PRODUCT_RELATIONS",
+      "check_type": "EXTERNAL_REFERENCE",
+      "applicable": false,
+      "status": "PASS",
+      "detail": "not applicable to owner-authorized minimal fixture"
+    },
+    {
+      "validation_id": "CTRL-REQUIRED-NULL-PROFILE",
+      "target_sheet": "RAW_EXTRACTION_RUNS",
+      "check_type": "NULLABILITY_PROFILE",
+      "applicable": true,
+      "status": "PASS",
+      "detail": "required-null failures=[]"
+    }
+  ]
+}

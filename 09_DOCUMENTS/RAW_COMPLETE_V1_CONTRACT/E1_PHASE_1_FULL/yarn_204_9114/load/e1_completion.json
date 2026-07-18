@@ -1,0 +1,19 @@
+{
+  "completed_at_utc": "2026-07-18T20:00:43Z",
+  "dry_run": "PASS",
+  "first_full_load": "PASS",
+  "fk_failures": 0,
+  "idempotency_duplicates": 0,
+  "idempotency_new_rows": 0,
+  "products": 204,
+  "read_back_validation": "PASS",
+  "same_snapshot_idempotency": "PASS",
+  "snapshot_checksums": {
+    "checked": 2011,
+    "failures": [],
+    "manifest_sha256": "259668ac9320db3ef1554015b65400dd7b5efaa12595677038cffb666caf5477",
+    "status": "PASS"
+  },
+  "status": "PASS",
+  "variants": 9114
+}

@@ -1,0 +1,4 @@
+﻿palette_id,name_raw,sort_order_raw,hex_raw,red_raw,green_raw,blue_raw,deletion_mark,source_system_id,source_entityset,source_record_id,extraction_run_id
+d9f4b02d-846c-11ea-9994-000c299cb3e9,Оранжевый,4,#FFA161,255,161,97,False,1C_STANDARD_ODATA,Catalog_iq_ЦветоваяПалитра,d9f4b02d-846c-11ea-9994-000c299cb3e9,phase_c_20260718T163012Z_Catalog_iq_5540836245
+eed3af95-846c-11ea-9994-000c299cb3e9,Желтый,5,#FFFF00,255,255,0,False,1C_STANDARD_ODATA,Catalog_iq_ЦветоваяПалитра,eed3af95-846c-11ea-9994-000c299cb3e9,phase_c_20260718T163012Z_Catalog_iq_5540836245
+bbd3bd7f-8701-11ea-9999-000c299cb3e9,Коричневый,14,#964B00,150,75,0,False,1C_STANDARD_ODATA,Catalog_iq_ЦветоваяПалитра,bbd3bd7f-8701-11ea-9999-000c299cb3e9,phase_c_20260718T163012Z_Catalog_iq_5540836245

@@ -1,0 +1,8 @@
+﻿warehouse_id,name_raw,warehouse_type_raw,deletion_mark,source_system_id,source_entityset,source_record_id,extraction_run_id
+f63e019c-23d8-11eb-80f1-e1bec40f62a1,Резерв,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,f63e019c-23d8-11eb-80f1-e1bec40f62a1,phase_c_20260718T163012Z_Catalog_8975107bfb
+18f8c127-2f9a-11ed-a7c3-000c290ea457,Склад Wolt,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,18f8c127-2f9a-11ed-a7c3-000c290ea457,phase_c_20260718T163012Z_Catalog_8975107bfb
+c8b841c4-718e-11ee-a7cf-000c290ea457,Склад OZON,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,c8b841c4-718e-11ee-a7cf-000c290ea457,phase_c_20260718T163012Z_Catalog_8975107bfb
+92ba8f16-b6c6-11e2-b03e-001999e10e06,Офис,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,92ba8f16-b6c6-11e2-b03e-001999e10e06,phase_c_20260718T163012Z_Catalog_8975107bfb
+f166b0aa-2f3e-11e2-b725-001999e10e06,Основной склад,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,f166b0aa-2f3e-11e2-b725-001999e10e06,phase_c_20260718T163012Z_Catalog_8975107bfb
+a0cf265d-2f46-11e2-b725-001999e10e06,Магазин,РозничныйМагазин,False,1C_STANDARD_ODATA,Catalog_Склады,a0cf265d-2f46-11e2-b725-001999e10e06,phase_c_20260718T163012Z_Catalog_8975107bfb
+b74a8760-c271-11ea-be7c-000c2922da20,Интернет магазин,ОптовыйСклад,False,1C_STANDARD_ODATA,Catalog_Склады,b74a8760-c271-11ea-be7c-000c2922da20,phase_c_20260718T163012Z_Catalog_8975107bfb

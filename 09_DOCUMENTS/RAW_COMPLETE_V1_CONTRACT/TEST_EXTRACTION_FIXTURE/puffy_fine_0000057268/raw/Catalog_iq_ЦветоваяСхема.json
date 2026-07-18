@@ -1,0 +1,35 @@
+[
+  {
+    "Blue": 131,
+    "Code": "000000201",
+    "DeletionMark": false,
+    "Description": "Желтый Крайола (#FCE883)",
+    "Green": 232,
+    "Hex": "#FCE883",
+    "Red": 252,
+    "Ref_Key": "fc3cb015-6396-11ea-9983-000c299cb3e9",
+    "Палитра_Key": "eed3af95-846c-11ea-9994-000c299cb3e9"
+  },
+  {
+    "Blue": 38,
+    "Code": "000000417",
+    "DeletionMark": false,
+    "Description": "Насыщенный оранжевый (#EC7C26)",
+    "Green": 124,
+    "Hex": "#EC7C26",
+    "Red": 236,
+    "Ref_Key": "fc3cb0ed-6396-11ea-9983-000c299cb3e9",
+    "Палитра_Key": "d9f4b02d-846c-11ea-9994-000c299cb3e9"
+  },
+  {
+    "Blue": 48,
+    "Code": "000000851",
+    "DeletionMark": false,
+    "Description": "Терракотовый (#904D30)",
+    "Green": 77,
+    "Hex": "#904D30",
+    "Red": 144,
+    "Ref_Key": "fc3cb29f-6396-11ea-9983-000c299cb3e9",
+    "Палитра_Key": "bbd3bd7f-8701-11ea-9999-000c299cb3e9"
+  }
+]

@@ -1,0 +1,2 @@
+﻿package_set_id,name_raw,base_unit_id,report_unit_id,report_coefficient,deletion_mark,source_system_id,source_entityset,source_record_id,extraction_run_id
+0ee8e347-b9bb-11e9-8407-aced5c2b515f,Индивидуальный набор для номенклатуры,,,0,False,1C_STANDARD_ODATA,Catalog_НаборыУпаковок,0ee8e347-b9bb-11e9-8407-aced5c2b515f,phase_c_20260718T163012Z_Catalog_97307b62de
